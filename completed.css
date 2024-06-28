@@ -1,0 +1,128 @@
+/* BLOG CARD */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --base: #fafaf7;
+    --cover: #9dd9f8;
+    --var1: #633313;
+    --standard: #633313;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--base);
+    height: 100%;
+    width: 100%;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ensures links inherit text color */
+}
+
+#desktop-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--base); /* Ensure navigation bar has same background */
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+
+
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px; /* Increased gap for more space between cards */
+    padding: 20px;
+    height: 100%;
+    margin-top: 190px; /* Ensure space below fixed nav */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 522px;
+    width: 384px;
+    padding: 24px;
+    gap: 24px;
+    background-color: var(--base);
+    border: 1px var(--standard) solid;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 20px 20px var(--standard);
+}
+
+.card h2 {
+    color: #633313;
+    font-size: 30px;
+}
+
+.preview_pic {
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.main {
+    gap: 12px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: var(--cover);
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.date {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.mention {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 34px;
+    margin: 0;
+}
+
+.mention p {
+    font-size: 5px;
+}
+
+.attribution {
+    padding-top: 11%;
+    align-self: center;
+    font-size: 10px;
+}
+
+@media (max-width: 450px) {
+    .card {
+        width: 327px;
+        height: 501px;
+        box-shadow: 0.5rem 0.5rem var(--standard);
+    }
+
+    .preview_pic {
+        width: 279px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card h2 {
+        color: var(--standard);
+    }
+}
