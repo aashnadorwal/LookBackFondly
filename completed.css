@@ -1,4 +1,6 @@
-/* BLOG CARD */
+/* Adjusted CSS including media queries for responsive design */
+
+/* Base styles */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -27,7 +29,6 @@ a {
 }
 
 #desktop-nav {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -35,41 +36,40 @@ a {
     z-index: 1000; /* Ensures it's above other content */
 }
 
-
-
 .screen {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px; /* Increased gap for more space between cards */
+    gap: 55px; /* Adjusted gap for more space between cards */
     padding: 20px;
-    height: 100%;
-    margin-top: 190px; /* Ensure space below fixed nav */
-
+    min-height: calc(100vh - 130px); /* Ensure .screen takes up remaining height, subtracting header and nav height */
+    margin-top: 25px; /* Ensure space below fixed nav */
+    align-items: flex-start; /* Align items at the top */
+    position: relative; /* Relative positioning for absolute positioning of .end-button-container */
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    height: 522px;
-    width: 384px;
-    padding: 24px;
-    gap: 24px;
-    background-color: var(--base);
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+    gap: 15px;
+    background-color: white;
     border: 1px var(--standard) solid;
     border-radius: 20px;
     align-items: center;
-    box-shadow: 20px 20px var(--standard);
+    box-shadow: 10px 10px var(--standard);
 }
 
 .card h2 {
     color: #633313;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .preview_pic {
-    width: 200px;
-    height: 400px;
+    width: 225px;
+    height: 325px;
     border-radius: 10px;
 }
 
@@ -83,6 +83,7 @@ a {
     padding: 6px 15px;
     border-radius: 4px;
     margin: 0;
+    color: #633313;
 }
 
 .date {
@@ -91,38 +92,60 @@ a {
     font-size: 13px;
 }
 
-.mention {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    height: 34px;
-    margin: 0;
+.end-button-container {
+    bottom: 20px;
+    left: 50%;
+    z-index: 1000; /* Ensure it's above other content */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align the button */
 }
 
-.mention p {
-    font-size: 5px;
+.end-button {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    color: #633313;
+    background-color: #9dd9f8;
+    padding: 10px 20px;
+    border: 1px solid #633313;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 300ms ease;
 }
 
-.attribution {
-    padding-top: 11%;
-    align-self: center;
-    font-size: 10px;
+.end-button:hover {
+    background-color: #7fc0e5;
+    color: #ffffff;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .card {
-        width: 327px;
-        height: 501px;
+        width: 250px;
+        height: 30px;
         box-shadow: 0.5rem 0.5rem var(--standard);
     }
 
     .preview_pic {
-        width: 279px;
-        height: 200px;
+        width: 200px;
+        height: 300px;
         object-fit: cover;
     }
 
     .card h2 {
         color: var(--standard);
+    }
+
+    .end-button-container {
+        position: relative; /* Reset to relative positioning */
+        width: auto; /* Auto width */
+        bottom: auto; /* Reset bottom */
+        transform: none; /* Reset transform */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* Full width cards */
+        max-width: 300px; /* Maximum width for cards */
     }
 }
