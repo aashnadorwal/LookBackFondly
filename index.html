@@ -10,9 +10,9 @@
     <header>
         <div class="published-info">
             <span class="scrolling-text">
-                <em>the answer is always in the room with you. there is no solution except to listen to it, relax with it © aashna dorwal 2024</em>
+                <em>the answer is always in the room with you. there is no solution except to listen to it, relax with it.</em>
             </span>
-        </div>        
+        </div>
     </header>
     <nav id="desktop-nav">
         <div class="container">
@@ -22,7 +22,8 @@
                     <li><a href="completed.html">COMPLETED</a></li>
                 </ul>
             </div>
-            <div class="logo">LOOK BACK FONDLY</div>
+            <div class="logo"> LOOK BACK FONDLY
+            </div>
             <div class="nav-right">
                 <ul>
                     <li><a href="#to-be-read">TO BE READ</a></li>
@@ -31,24 +32,66 @@
             </div>
         </div>
     </nav>
-    <section id="profile">
-        <div class="content-wrapper">
-            <!-- Profile section content goes here if any -->
-        </div>
     </section>
     <section id="content">
         <div class="text-section">
-            <p>I'm <span style="background-color: #c7ecff;">Aashna.</span></p>
+            <p>Hi I'm <span style="background-color: #c7ecff;">Aashna</span>,</p>
             <p>This is my digital log where I document the books I've read, along with entries, reviews, and a curated timeline of my reading journey.</p>
             <p>Explore my insights on various genres and get inspired for your next read.</p>
-            <div class="explore-button-container">
-                <a href="completed.html" class="explore-button">explore all entries</a>
-            </div>
         </div>
         <div class="image-section">
             <img src="assets/homegraphic.png" alt="Image Description">
         </div>
     </section>
+    <section id="profile">
+        <div class="content-wrapper">
+            <div class="explore-button-container">
+                <a href="completed.html" class="explore-button">explore all entries</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="beyond">
+        <div class="beyond-container">
+            <div class="beyond-image">
+                <img src="assets/beyondpic.jpg" alt="Beyond Image">
+            </div>
+            <div class="beyond-text">
+                <p>As I pursue my degree in Business Analytics, I've always had genuine interest and love in exploring creative projects. Whether it's through writing, designing, or diving into other artistic endeavors, I find immense joy and fulfillment in bringing my visions to life.</p>
+                <p>Art, in all its forms, transcends one's personal boundaries—it challenges you to think creatively, pushes you to pursue your visions with determination, and encourages you to confront and overcome obstacles. Throughout my academic journey, I've discovered that creativity isn't just a side pursuit; it's a powerful tool for problem-solving and innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Share your thoughts or just say hi!</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">send message</button>
+            </form>
+    
+            <div class="social-buttons">
+                <a href="mailto:aashnamdorwal@gmail.com" class="email-button">Email</a>
+                <a href="https://www.linkedin.com/in/aashnadorwal" target="_blank" class="linkedin-button">LinkedIn</a>
+                <a href="https://github.com/aashnadorwal" target="_blank" class="github-button">GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <p>&copy; Aashna Dorwal 2024. All Rights Reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

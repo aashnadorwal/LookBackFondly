@@ -32,7 +32,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--base); /* Ensure navigation bar has same background */
+    background-color: #efe7d6; /* Ensure navigation bar has same background */
     z-index: 1000; /* Ensures it's above other content */
 }
 
@@ -116,6 +116,64 @@ a {
 .end-button:hover {
     background-color: #7fc0e5;
     color: #ffffff;
+}
+
+.explore-button-container {
+    bottom: 20px;
+    left: 40px;
+}
+
+.explore-button {
+    font-style: italic;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #633313;
+    background-color: #9dd9f8;
+    padding: 10px 20px;
+    border: 1px solid #633313;
+    border-radius: 5px;
+}
+
+.explore-button:hover {
+    background-color: #7fc0e5;
+    color: #ffffff;
+}
+
+#content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    max-width: 1900px;
+    margin: 40px auto; /* Adjust margin as needed */
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1; /* Take remaining space */
+    padding-right: 40px; /* Increase spacing between text and image */
+    font-size: 24px; /* Adjusted font size */
+    margin-right: 40px; /* Extend margin on the right */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items at the top and bottom */
+}
+
+.image-section {
+    flex: 2; /* Take remaining space */
+    text-align: right;
+}
+
+.image-section img {
+    width: 65%; /* Cover the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -40px;
+}
+
+.vertical-border {
+    top: calc(100% + 20px); /* Start below nav links */
+    bottom: 0;
+    right: 50%; /* Place the border in the center */
+    width: 1px;
+    background-color: #633313; /* Adjust color as needed */
 }
 
 @media (max-width: 768px) {
