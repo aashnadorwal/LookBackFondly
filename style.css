@@ -166,7 +166,7 @@ a,
 .beyond-text p {
     color: #633313;
     margin-bottom: 10px; /* Adjusted margin-bottom for paragraphs */
-    margin-top: 40px; /* Adjusted margin-bottom for paragraphs */
+    margin-top: 70px; /* Adjusted margin-bottom for paragraphs */
 }
 
 .beyond-text p:first-child {
@@ -302,3 +302,4 @@ footer {
 .footer-container p {
     margin: 0;
 }
+

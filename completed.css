@@ -98,6 +98,9 @@ a {
     z-index: 1000; /* Ensure it's above other content */
     width: 100%; /* Full width */
     text-align: center; /* Center align the button */
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 .end-button {
@@ -138,6 +141,8 @@ a {
     background-color: #7fc0e5;
     color: #ffffff;
 }
+
+
 
 #content {
     display: flex;
@@ -206,4 +211,61 @@ a {
         width: 100%; /* Full width cards */
         max-width: 300px; /* Maximum width for cards */
     }
+}
+
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+/* Blog Post Page */
+
+body.blog-post {
+    background-color: #fafaf7;
+    font-family: "Nanum Myeongjo", serif; /* Ensure consistent font */
+    line-height: 1.6; /* Improved readability */
+    padding-top: 20px; /* Added padding to top */
+    padding-bottom: 50px; /* Added padding to bottom for footer */
+}
+
+#post-title {
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.date,
+.tag {
+    color: #633313; /* Adjusted to a deeper shade for better contrast */
+    font-size: 0.9rem; /* Slightly reduced font size */
+}
+
+#post-content {
+    color: #333; /* Adjust text color */
+}
+
+#post-content p {
+    margin-bottom: 15px; /* Increased spacing between paragraphs */
+}
+
+.back-button {
+    font-style: italic;
+    font-size: 1.1rem; /* Slightly larger font size for button */
+    text-decoration: none;
+    color: #633313;
+    background-color: #9dd9f8;
+    padding: 12px 24px; /* Slightly larger padding */
+    border: 1px solid #633313;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    display: inline-block; /* Ensures button behaves correctly */
+}
+
+.back-button:hover {
+    background-color: #7fc0e5;
+    color: #ffffff;
 }
