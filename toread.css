@@ -1,0 +1,300 @@
+/* Color Palette */
+/* Light Blue: #9dd9f8
+   Brown: #633313
+   Peach: #fafaf7
+   Dark Peach: #efe7d6
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+/* Base styles */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --base: #fafaf7;
+    --cover: #9dd9f8;
+    --var1: #633313;
+    --standard: #633313;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--base);
+    height: 100%;
+    width: 100%;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ensures links inherit text color */
+}
+
+#desktop-nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #efe7d6; /* Ensure navigation bar has same background */
+    color: #633313; /* Text color for navigation links */
+    padding: 15px 0px;
+    border-bottom: 1px solid #633313; /* Border under navigation */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Spacing between sections */
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'arial'
+}
+
+.nav-links li {
+    margin: 0 15px; /* Adjust spacing between nav items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px; /* Add padding around links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.nav-links a:hover {
+    color: #adadad; /* Change text color on hover */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', 'Verdana', sans-serif; /* Example: changing to Arial */
+    color: #633313;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -20px;
+}
+
+.header-container {
+    color:#633313;
+    text-align: center; /* Center align the header */
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px; /* Adjusted gap for more space between cards */
+    padding: 20px;
+    min-height: calc(100vh - 130px); /* Ensure .screen takes up remaining height, subtracting header and nav height */
+    margin-top: 25px; /* Ensure space below fixed nav */
+    align-items: flex-start; /* Align items at the top */
+    position: relative; /* Relative positioning for absolute positioning of .end-button-container */
+    margin-bottom: 60px;
+}
+
+.card {
+    flex: 0 0 calc(16.666% - 20px); /* Adjusted flex basis to fit 6 cards per row */
+    flex-direction: column;
+    height: 405px;
+    width: 65px;
+    padding: 20px;
+    gap: 15px;
+    background-color: white;
+    border: 1px var(--standard) solid;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 10px 10px var(--standard);
+}
+
+.card h2 {
+    color: #633313;
+    font-size: 22px;
+}
+
+.preview_pic {
+    width: 175px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center; /* Center align the content horizontally */
+}
+
+.main {
+    gap: 12px;
+}
+
+
+.explore-button-container {
+    bottom: 20px;
+    left: 40px;
+}
+
+#content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    max-width: 1900px;
+    margin: 40px auto; /* Adjust margin as needed */
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1; /* Take remaining space */
+    padding-right: 40px; /* Increase spacing between text and image */
+    font-size: 24px; /* Adjusted font size */
+    margin-right: 40px; /* Extend margin on the right */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items at the top and bottom */
+}
+
+.image-section {
+    flex: 2; /* Take remaining space */
+    text-align: right;
+}
+
+.image-section img {
+    width: 65%; /* Cover the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -40px;
+}
+
+.vertical-border {
+    top: calc(100% + 20px); /* Start below nav links */
+    bottom: 0;
+    right: 50%; /* Place the border in the center */
+    width: 1px;
+    background-color: #633313; /* Adjust color as needed */
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #9dd9f8;
+    color: #00275b;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #633313;
+
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+
+/* Media Queries */
+
+/* Tablets and below */
+@media only screen and (max-width: 1024px) {
+
+    .screen {
+        gap: 40px; /* Adjusted gap for more space between cards */
+    }
+
+    .card {
+        flex: 0 0 calc(33.333% - 20px); /* Adjusted flex basis for 3 cards per row */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 10px 0; /* Adjust margin */
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust margin for nav items */
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    .header-container {
+        font-size: 20px;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+    .card {
+        flex: 0 0 calc(35% - 20px); /* Adjusted flex basis for 2 cards per row with less distance */
+        height: 320px;
+        width: 350px;
+        padding-right: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .preview_pic {
+        width: 105px;
+        height: auto;
+        border-radius: 10px;
+        align-items: center; /* Center align the content horizontally */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 5px 0; /* Adjust margin */
+        text-align: center;
+    }
+
+    .nav-links {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 5px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust spacing between nav items */
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .header-container {
+        font-size: 13px;
+        padding: 0 45px;
+        margin-bottom: -15px;
+        margin-top: 30px;
+
+    }
+}

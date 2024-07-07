@@ -100,7 +100,7 @@ a {
     border: 1px solid #ccc; /* Border color */
     border-radius: 5px; /* Rounded corners */
     margin-right: 5px; /* Margin between input and button */
-    width: 250px; /* Fixed width or adjust as needed */
+    width: 200px; /* Fixed width or adjust as needed */
 }
 
 .search-container button {
@@ -112,12 +112,14 @@ a {
     border: 1px solid #633313; /* Border color */
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 .search-container button:hover {
     background-color: #7fc0e5; /* Darker background color on hover */
     color: #ffffff; /* Text color on hover */
 }
+
 
 .screen {
     display: flex;
@@ -181,8 +183,8 @@ a {
     z-index: 1000; /* Ensure it's above other content */
     width: 100%; /* Full width */
     text-align: center; /* Center align the button */
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .end-button {

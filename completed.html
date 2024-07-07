@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="completed.css">
+
 </head>
 <body>
     <nav id="desktop-nav">
@@ -17,15 +18,18 @@
             <ul class="nav-links">
                 <li><a href="index.html#home">HOME</a></li>
                 <li><a href="completed.html">COMPLETED</a></li>
-                <li><a href="#to-be-read">TO READ</a></li>
+                <li><a href="toread.html">TO READ</a></li>
                 <li><a href="index.html#beyond">BEYOND</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- Search Container -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search...">
-        <button type="button" id="searchButton" onclick="searchFunction()">Search</button>
-    </div>    
+        <input type="text" id="searchInput" placeholder="Search a book...">
+        <button onclick="searchBooks()">Search</button>
+    </div>
+
     <section class="screen">
         <!-- Blog Card 1 -->
         <a href="blog-post.html?post=letters-from-a-stoic" class="card">
@@ -37,7 +41,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 2 -->
+        <!-- Blog Card 2
         <a href="blog-post.html?post=notes-from-underground" class="card">
             <img src="assets/notesfromunderground.jpg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -47,7 +51,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 3 -->
+        <!-- Blog Card 3 
         <a href="blog-post.html?post=nausea" class="card">
             <img src="assets/nausea.jpeg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -57,7 +61,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 4 -->
+        <!-- Blog Card 4 
         <a href="blog-post.html?post=the-stranger" class="card">
             <img src="assets/thestranger.jpg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -67,7 +71,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 5 -->
+        <!-- Blog Card 5 
         <a href="blog-post.html?post=my-body" class="card">
             <img src="assets/mybody.jpg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -77,7 +81,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 6 -->
+        <!-- Blog Card 6 
         <a href="blog-post.html?post=all-about-love" class="card">
             <img src="assets/allaboutlove.jpg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -87,7 +91,7 @@
             </div>
         </a>
 
-        <!-- Blog Card 7 -->
+        <!-- Blog Card 7 
         <a href="blog-post.html?post=tuesdays-with-morrie" class="card">
             <img src="assets/tuesdayswithmorrie.jpg" alt="illustration-article" class="preview_pic">
             <div class="main">
@@ -97,8 +101,18 @@
             </div>
         </a>
 
+        <!-- Blog Card 8 
+        <a href="blog-post.html?post=ways-of-seeing" class="card">
+            <img src="assets/waysofseeing.jpg" alt="illustration-article" class="preview_pic">
+            <div class="main">
+                <p class="tag"><b>Nonfiction Essays</b></p>
+                <p class="date">Published - 28 Jun 2024</p>
+                <h2>Ways of Seeing by John Berger</h2>
+            </div>
+        </a> -->
+
         <div class="end-button-container">
-            <a href="#top" class="end-button">End of entries, check back soon!</a>
+            <a href="#top" class="end-button">End of entries</a>
         </div>
     </section>
 
@@ -106,6 +120,26 @@
         <div class="footer-container">
             <p>&copy; Aashna Dorwal 2024. All Rights Reserved.</p>
         </div>
+    </footer>
+
     <script src="script.js"></script>
+    <script>
+        function searchBooks() {
+            var input, filter, cards, cardContainer, title, i;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            cardContainer = document.querySelector('.screen');
+            cards = cardContainer.getElementsByClassName('card');
+
+            for (i = 0; i < cards.length; i++) {
+                title = cards[i].querySelector("h2");
+                if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+                    cards[i].style.display = ""; // Show matching card
+                } else {
+                    cards[i].style.display = "none"; // Hide non-matching card
+                }
+            }
+        }
+    </script>
 </body>
 </html>
