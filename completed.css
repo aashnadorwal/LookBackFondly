@@ -1,4 +1,11 @@
-/* Adjusted CSS including media queries for responsive design */
+/* Color Palette */
+/* Light Blue: #9dd9f8
+   Brown: #633313
+   Peach: #fafaf7
+   Dark Peach: #efe7d6
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 /* Base styles */
 
@@ -33,7 +40,83 @@ a {
     left: 0;
     width: 100%;
     background-color: #efe7d6; /* Ensure navigation bar has same background */
-    z-index: 1000; /* Ensures it's above other content */
+    color: #633313; /* Text color for navigation links */
+    padding: 15px 0px;
+    border-bottom: 1px solid #633313; /* Border under navigation */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Spacing between sections */
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.nav-links li {
+    margin: 0 15px; /* Adjust spacing between nav items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px; /* Add padding around links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.nav-links a:hover {
+    color: #adadad; /* Change text color on hover */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', 'Verdana', sans-serif; /* Example: changing to Arial */
+    color: #633313;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -20px;
+}
+
+/* Search Container */
+.search-container {
+    margin-top: 40px; /* Adjust margin as needed */
+    text-align: center; /* Center align contents */
+}
+
+.search-container input[type="text"] {
+    font-family: "Nanum Myeongjo", serif;
+    padding: 10px; /* Padding around text input */
+    font-size: 16px; /* Font size for input text */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Margin between input and button */
+    width: 250px; /* Fixed width or adjust as needed */
+}
+
+.search-container button {
+    font-family: "Nanum Myeongjo", serif;
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size for button text */
+    background-color: #9dd9f8; /* Button background color */
+    color: #633313; /* Button text color */
+    border: 1px solid #633313; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-container button:hover {
+    background-color: #7fc0e5; /* Darker background color on hover */
+    color: #ffffff; /* Text color on hover */
 }
 
 .screen {
@@ -100,11 +183,9 @@ a {
     text-align: center; /* Center align the button */
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
 
 .end-button {
-    font-style: italic;
     font-size: 20px;
     text-decoration: none;
     color: #633313;
@@ -141,8 +222,6 @@ a {
     background-color: #7fc0e5;
     color: #ffffff;
 }
-
-
 
 #content {
     display: flex;
@@ -181,38 +260,16 @@ a {
     background-color: #633313; /* Adjust color as needed */
 }
 
-@media (max-width: 768px) {
-    .card {
-        width: 250px;
-        height: 30px;
-        box-shadow: 0.5rem 0.5rem var(--standard);
-    }
+/* FOOTER */
 
-    .preview_pic {
-        width: 200px;
-        height: 300px;
-        object-fit: cover;
-    }
+footer {
+    background-color: #9dd9f8;
+    color: #00275b;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #633313;
 
-    .card h2 {
-        color: var(--standard);
-    }
-
-    .end-button-container {
-        position: relative; /* Reset to relative positioning */
-        width: auto; /* Auto width */
-        bottom: auto; /* Reset bottom */
-        transform: none; /* Reset transform */
-    }
 }
-
-@media (max-width: 480px) {
-    .card {
-        width: 100%; /* Full width cards */
-        max-width: 300px; /* Maximum width for cards */
-    }
-}
-
 
 .footer-container {
     max-width: 800px;
@@ -223,49 +280,216 @@ a {
     margin: 0;
 }
 
-/* Blog Post Page */
 
-body.blog-post {
-    background-color: #fafaf7;
-    font-family: "Nanum Myeongjo", serif; /* Ensure consistent font */
-    line-height: 1.6; /* Improved readability */
-    padding-top: 20px; /* Added padding to top */
-    padding-bottom: 50px; /* Added padding to bottom for footer */
+/* Media Queries for tablets and smaller screens */
+@media only screen and (max-width: 1024px) {
+    /* General styles */
+    body {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    /* Header */
+    header {
+        padding: 8px 0; /* Adjust padding for header */
+    }
+
+    .published-info {
+        padding: 3px 8px; /* Adjust padding for published info */
+    }
+
+    /* Navigation */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 0 10px; /* Adjust padding for container */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 10px 0; /* Adjust margin */
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust margin for nav items */
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    /* Content Sections */
+    #content {
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Adjust padding */
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .text-section {
+        font-size: 30px; /* Adjust font size for text sections */
+        margin-top: -20px; /* Adjust top margin */
+    }
+
+    .image-section img {
+        width: 100%; /* Adjust image width for smaller screens */
+        margin-top: 0; /* Adjust margin as needed */
+    }
+
+    .explore-button-container {
+        text-align: center; /* Center align explore button */
+        margin: 20px 0; /* Adjust margin */
+        margin-top: 50px;;
+    }
+
+    .explore-button {
+        font-size: 1rem; /* Adjust button font size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+
+    /* Beyond Section */
+    .beyond-container {
+        flex-direction: column; /* Stack beyond elements vertically */
+        align-items: center; /* Center align elements */
+    }
+
+    .beyond-text {
+        font-size: 24px; /* Adjust font size */
+        margin-right: 0; /* Reset margin */
+        text-align: justify;
+    }
+
+    .beyond-image img {
+        width: 100%; /* Adjust image width */
+        margin-left: 0; /* Reset margin */
+    }
+
+    /* Contact Form */
+    .contact-container {
+        max-width: 100%; /* Full width for contact container */
+    }
+
+    form {
+        max-width: 100%; /* Full width for form */
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
 }
 
-#post-title {
-    text-align: center; /* Center align the title */
-    margin-bottom: 20px; /* Adjust margin as needed */
-}
+/* Media Queries for phones */
+@media only screen and (max-width: 600px) {
+    /* General styles */
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 
-.date,
-.tag {
-    color: #633313; /* Adjusted to a deeper shade for better contrast */
-    font-size: 0.9rem; /* Slightly reduced font size */
-}
+    /* Header */
+    header {
+        padding: 8px 0; /* Adjust padding for header */
+    }
 
-#post-content {
-    color: #333; /* Adjust text color */
-}
 
-#post-content p {
-    margin-bottom: 15px; /* Increased spacing between paragraphs */
-}
+    /* Navigation */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 0 10px; /* Adjust padding for container */
+    }
 
-.back-button {
-    font-style: italic;
-    font-size: 1.1rem; /* Slightly larger font size for button */
-    text-decoration: none;
-    color: #633313;
-    background-color: #9dd9f8;
-    padding: 12px 24px; /* Slightly larger padding */
-    border: 1px solid #633313;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-    display: inline-block; /* Ensures button behaves correctly */
-}
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 5px 0; /* Adjust margin */
+        text-align: center;
+    }
 
-.back-button:hover {
-    background-color: #7fc0e5;
-    color: #ffffff;
+    .nav-links {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 5px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust spacing between nav items */
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    /* Content Sections */
+    #content {
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Adjust padding */
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .text-section {
+        font-size: 24px; /* Adjust font size for text sections */
+        margin-top: -30px; /* Adjust top margin */
+    }
+
+    .image-section img {
+        width: 100%; /* Adjust image width for smaller screens */
+        margin-top: 5px; /* Adjust margin as needed */
+    }
+
+    .explore-button-container {
+        text-align: center; /* Center align explore button */
+        margin: 20px 0; /* Adjust margin */
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    .explore-button {
+        font-size: 16px; /* Adjust button font size */
+        padding: 8px 12px; /* Adjust button padding */
+        margin-top: 20%;
+    }
+
+    /* Beyond Section */
+    .beyond-container {
+        flex-direction: column; /* Stack beyond elements vertically */
+        align-items: center; /* Center align elements */
+    }
+
+    .beyond-text {
+        margin-top: -10px;
+        font-size: 20px; /* Adjust font size */
+        margin-right: 0; /* Reset margin */
+        text-align: justify;
+    }
+
+    .beyond-image img {
+        width: 100%; /* Adjust image width */
+        margin-left: 0; /* Reset margin */
+        margin-top: -20px;
+    }
+
+    /* Contact Form */
+    .contact-container {
+        max-width: 100%; /* Full width for contact container */
+    }
+
+    form {
+        max-width: 100%; /* Full width for form */
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
 }

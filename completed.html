@@ -9,32 +9,23 @@
     <link rel="stylesheet" href="completed.css">
 </head>
 <body>
-    <header>
-        <div class="published-info">
-            <span class="scrolling-text">
-                <em>the answer is always in the room with you. there is no solution except to listen to it, relax with it.</em>
-            </span>
-        </div>
-    </header>
     <nav id="desktop-nav">
         <div class="container">
-            <div class="nav-left">
-                <ul>
-                    <li><a href="index.html#home">HOME</a></li>
-                    <li><a href="completed.html">COMPLETED</a></li>
-                </ul>
+            <div class="logo">
+                LOOK BACK FONDLY
             </div>
-            <div class="logo"> LOOK BACK FONDLY
-            </div>
-            <div class="nav-right">
-                <ul>
-                    <li><a href="#to-be-read">TO BE READ</a></li>
-                    <li><a href="index.html#beyond">BEYOND</a></li>
-                </ul>
-            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">HOME</a></li>
+                <li><a href="completed.html">COMPLETED</a></li>
+                <li><a href="#to-be-read">TO READ</a></li>
+                <li><a href="index.html#beyond">BEYOND</a></li>
+            </ul>
         </div>
     </nav>
-    </section>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="button" id="searchButton" onclick="searchFunction()">Search</button>
+    </div>    
     <section class="screen">
         <!-- Blog Card 1 -->
         <a href="blog-post.html?post=letters-from-a-stoic" class="card">

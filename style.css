@@ -2,6 +2,7 @@
 /* Light Blue: #9dd9f8
    Brown: #633313
    Peach: #fafaf7
+   Dark Peach: #efe7d6
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
@@ -16,26 +17,13 @@ body {
     font-family: "Nanum Myeongjo", serif;
     background-color: #fafaf7;
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh; 
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #9dd9f8;
-    color: #fafaf7;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #633313;
-}
-
-.published-info {
-    display: inline-block;
-    color: #00275b;
-    padding: 5px 10px;
-}
 
 a,
 .btn {
@@ -46,7 +34,7 @@ a,
 #desktop-nav {
     background-color: #efe7d6; /* Background color for navigation */
     color: #633313; /* Text color for navigation links */
-    padding: 10px 0;
+    padding: 15px 0px;
     border-bottom: 1px solid #633313; /* Border under navigation */
 }
 
@@ -59,46 +47,38 @@ a,
     padding: 0 20px;
 }
 
-.nav-left,
-.nav-right {
+.nav-links {
+    font-family:'arial';
+    display: flex;
     align-items: center;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-left li,
-.nav-right li {
-    padding-inline: 20px; /* Adjust spacing between nav items */
-    font-size: 15px;
-    list-style-type: none;
-    display: inline;
+.nav-links li {
+    margin: 0 15px; /* Adjust spacing between nav items */
 }
 
-.nav-left a,
-.nav-right a {
+.nav-links a {
     text-decoration: none;
     color: inherit;
-    padding: 60px; /* Add padding around links */
+    padding: 10px 15px; /* Add padding around links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
 }
 
-.nav-left a:hover,
-.nav-right a:hover {
-    color: #adadad;
+.nav-links a:hover {
+    color: #adadad; /* Change text color on hover */
 }
 
 .logo {
     font-size: 1.5rem;
-    font-family:'Segoe UI', 'Verdana', sans-serif; /* Example: changing to Arial */
+    font-family: 'Segoe UI', 'Verdana', sans-serif; /* Example: changing to Arial */
     color: #633313;
-    font-weight:bold;
-    text-align: center;
-    margin-right: 15px; /* Adjusts space to the right of the logo */
-    margin-left: 15px;
-}
+    font-weight: bold;
+    text-align: left;
+    margin-left: -20px;
 
-.logo a {
-    text-decoration: none;
-    color: inherit;
 }
 
 #content {
@@ -106,16 +86,15 @@ a,
     align-items: flex-start; /* Align items at the top */
     margin: 40px auto; /* Adjust margin as needed */
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .text-section {
-    flex: 1; /* Take remaining space */
-    padding-right: 20px; /* Increase spacing between text and image */
+    flex: 2.4; /* Take remaining space */
     font-size: 45px; /* Adjusted font size */
-    margin-right: -750px; /* Extend margin on the right */
     margin-top: -10px;
     color: #633313;
+    text-align: justify;
 }
 
 .image-section {
@@ -124,20 +103,19 @@ a,
 }
 
 .image-section img {
-    width: 47%; /* Cover the entire width of its container */
+    width: 96%; /* Cover the entire width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin-top: -60px;
-    margin-right: 10px;
+    margin-top: -50px;
+    margin-bottom: -50px;
 }
+
 
 .explore-button-container {
     text-align: left;
-    margin-top: -120px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .explore-button {
-    font-style: italic;
     font-size: 1.25rem;
     text-decoration: none;
     color: #633313;
@@ -145,6 +123,8 @@ a,
     padding: 10px 20px;
     border: 1px solid #633313;
     border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .explore-button:hover {
@@ -166,7 +146,7 @@ a,
 .beyond-text p {
     color: #633313;
     margin-bottom: 10px; /* Adjusted margin-bottom for paragraphs */
-    margin-top: 70px; /* Adjusted margin-bottom for paragraphs */
+    margin-top: 50px; /* Adjusted margin-bottom for paragraphs */
 }
 
 .beyond-text p:first-child {
@@ -175,14 +155,16 @@ a,
 
 .beyond-container {
     display: flex;
-    max-width: 1400px;
+    max-width: 1380px;
 }
 
 .beyond-text {
     flex: 1;
     font-size: 30px; /* Adjust font size as needed */
     font-family: "Nanum Myeongjo", serif;
+    margin-top: 15px;
     margin-right: 40px;
+    text-align: justify;
 }
 
 .beyond-image {
@@ -302,4 +284,3 @@ footer {
 .footer-container p {
     margin: 0;
 }
-

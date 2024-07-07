@@ -1,0 +1,213 @@
+/* Media Queries for tablets and smaller screens */
+@media only screen and (max-width: 1024px) {
+    /* General styles */
+    body {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    /* Header */
+    header {
+        padding: 8px 0; /* Adjust padding for header */
+    }
+
+    .published-info {
+        padding: 3px 8px; /* Adjust padding for published info */
+    }
+
+    /* Navigation */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 0 10px; /* Adjust padding for container */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 10px 0; /* Adjust margin */
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust margin for nav items */
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    /* Content Sections */
+    #content {
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Adjust padding */
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .text-section {
+        font-size: 30px; /* Adjust font size for text sections */
+        margin-top: -20px; /* Adjust top margin */
+    }
+
+    .image-section img {
+        width: 100%; /* Adjust image width for smaller screens */
+        margin-top: 0; /* Adjust margin as needed */
+    }
+
+    .explore-button-container {
+        text-align: center; /* Center align explore button */
+        margin: 20px 0; /* Adjust margin */
+        margin-top: 50px;;
+    }
+
+    .explore-button {
+        font-size: 1rem; /* Adjust button font size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+
+    /* Beyond Section */
+    .beyond-container {
+        flex-direction: column; /* Stack beyond elements vertically */
+        align-items: center; /* Center align elements */
+    }
+
+    .beyond-text {
+        font-size: 24px; /* Adjust font size */
+        margin-right: 0; /* Reset margin */
+        text-align: justify;
+    }
+
+    .beyond-image img {
+        width: 100%; /* Adjust image width */
+        margin-left: 0; /* Reset margin */
+    }
+
+    /* Contact Form */
+    .contact-container {
+        max-width: 100%; /* Full width for contact container */
+    }
+
+    form {
+        max-width: 100%; /* Full width for form */
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+}
+
+/* Media Queries for phones */
+@media only screen and (max-width: 600px) {
+    /* General styles */
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Header */
+    header {
+        padding: 8px 0; /* Adjust padding for header */
+    }
+
+
+    /* Navigation */
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 0 10px; /* Adjust padding for container */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Adjust logo font size */
+        margin: 5px 0; /* Adjust margin */
+        text-align: center;
+    }
+
+    .nav-links {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 5px; /* Adjust margin for nav links */
+        order: 2; /* Display nav links second */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 0 5px; /* Adjust spacing between nav items */
+
+    }
+
+    .nav-links a {
+        padding: 8px 12px; /* Adjust padding around links */
+    }
+
+    /* Content Sections */
+    #content {
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Adjust padding */
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .text-section {
+        font-size: 24px; /* Adjust font size for text sections */
+        margin-top: -30px; /* Adjust top margin */
+    }
+
+    .image-section img {
+        width: 100%; /* Adjust image width for smaller screens */
+        margin-top: 5px; /* Adjust margin as needed */
+    }
+
+    .explore-button-container {
+        text-align: center; /* Center align explore button */
+        margin: 20px 0; /* Adjust margin */
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    .explore-button {
+        font-size: 16px; /* Adjust button font size */
+        padding: 8px 12px; /* Adjust button padding */
+        margin-top: 20%;
+    }
+
+    /* Beyond Section */
+    .beyond-container {
+        flex-direction: column; /* Stack beyond elements vertically */
+        align-items: center; /* Center align elements */
+    }
+
+    .beyond-text {
+        margin-top: -10px;
+        font-size: 20px; /* Adjust font size */
+        margin-right: 0; /* Reset margin */
+        text-align: justify;
+    }
+
+    .beyond-image img {
+        width: 100%; /* Adjust image width */
+        margin-left: 0; /* Reset margin */
+        margin-top: -20px;
+    }
+
+    /* Contact Form */
+    .contact-container {
+        max-width: 100%; /* Full width for contact container */
+    }
+
+    form {
+        max-width: 100%; /* Full width for form */
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+}
