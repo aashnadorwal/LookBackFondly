@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--base); /* Assuming --base is defined elsewhere */
+    background-color: var(--base); 
     height: 100%;
     width: 100%;
     font-family: "Nanum Myeongjo", serif;
@@ -19,8 +19,6 @@ html, body {
     margin-left: -20px;
 }
 
-/* Navigation styles */
-
 .nav-links {
     list-style-type: none;
     padding: 0;
@@ -30,21 +28,21 @@ html, body {
 }
 
 .nav-links li {
-    margin: 0 15px; /* Adjust spacing between nav items */
+    margin: 0 15px; 
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #633313; /* White text color */
-    padding: 10px 15px; /* Add padding around links */
-    transition: color 0.3s ease; /* Smooth transition for link color */
+    color: #633313; 
+    padding: 10px 15px; 
+    transition: color 0.3s ease; 
 }
 
 .nav-links a:hover {
-    color: #adadad; /* Change text color on hover */
+    color: #adadad; 
 }
 
-/* Basic styling for the back button */
+/* Styling for the back button */
 button {
     font-family: "Nanum Myeongjo", serif;
     padding: 10px 20px;
@@ -65,27 +63,50 @@ button:hover {
 /* Blog post container */
 .blog-post {
     max-width: 1400px;
-    margin: 20px auto; /* Centered with some top margin */
-    padding: 20px;
+    margin: 20px auto;
+    padding: 30px;
 }
 
 .blog-post h1 {
     font-size: 45px;
-    color: #633313; /* Brown color for headings */
-    text-align: center; /* Centered heading */
+    color: #633313; 
+    text-align: center; 
     margin-bottom: 30px;
 }
 
 .blog-post h2 {
     font-size: 20px;
-    color: #633313; /* Brown color for headings */
-    text-align: left; /* Centered heading */
+    color: #633313; 
+    text-align: left; 
     margin-bottom: 5px;
 }
 
+h3 {
+    color: #633313;
+    font-size: 25px;
+    font-weight:900;
+    text-align: left; 
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+p {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
 .content {
     margin-top: 30px;
-    line-height: 1.6;
+    font-size: 20px;
+    color:#000000;
+    line-height: 1.5;
+}
+
+.content h2{
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 1.5;
 }
 
 
@@ -95,7 +116,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #633313;
-    margin-top: 33%; /* Push footer to the bottom */
+    margin-top: 33%; 
 }
 
 .footer-container {
@@ -112,45 +133,41 @@ footer {
 
 /* Media Queries for phones */
 @media only screen and (max-width: 600px) {
-    /* General styles */
     body {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 
-    /* Header */
     header {
-        padding: 8px 0; /* Adjust padding for header */
+        padding: 8px 0; 
     }
 
-
-    /* Navigation */
     .container {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column; /* Stacks vertically */
         align-items: center;
-        padding: 0 10px; /* Adjust padding for container */
+        padding: 0 10px;
     }
 
     .logo {
-        font-size: 1.8rem; /* Adjust logo font size */
-        margin: 5px 0; /* Adjust margin */
+        font-size: 1.8rem;
+        margin: 5px 0;
         text-align: center;
     }
 
     .nav-links {
         font-size: 0.7rem;
         text-align: center;
-        margin-top: 5px; /* Adjust margin for nav links */
-        order: 2; /* Display nav links second */
+        margin-top: 5px; 
+        order: 2; 
         flex: 1;
         display: flex;
         justify-content: center;
     }
 
     .nav-links li {
-        margin: 0 5px; /* Adjust spacing between nav items */
+        margin: 0 5px; 
     }
 
     .nav-links a {
-        padding: 8px 12px; /* Adjust padding around links */
+        padding: 8px 12px; 
     }
 }

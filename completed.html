@@ -24,7 +24,6 @@
         </div>
     </nav>
 
-    <!-- Search Container -->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search a book...">
         <button onclick="searchBooks()">Search</button>
@@ -112,7 +111,7 @@
         </a> -->
 
         <div class="end-button-container">
-            <a href="#top" class="end-button">End of entries</a>
+            <a href="#top" class="end-button">More Entries Coming Soon!</a>
         </div>
     </section>
 
@@ -134,9 +133,9 @@
             for (i = 0; i < cards.length; i++) {
                 title = cards[i].querySelector("h2");
                 if (title.innerText.toUpperCase().indexOf(filter) > -1) {
-                    cards[i].style.display = ""; // Show matching card
+                    cards[i].style.display = ""; // Shows matching card
                 } else {
-                    cards[i].style.display = "none"; // Hide non-matching card
+                    cards[i].style.display = "none"; // Hides non-matching card
                 }
             }
         }

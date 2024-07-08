@@ -1,8 +1,8 @@
-/* Color Palette */
-/* Light Blue: #9dd9f8
-   Brown: #633313
-   Peach: #fafaf7
-   Dark Peach: #efe7d6
+/* Color Palette
+    Light Blue: #9dd9f8
+    Brown: #633313
+    Peach: #fafaf7
+    Dark Peach: #efe7d6
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
@@ -32,10 +32,10 @@ a,
 }
 
 #desktop-nav {
-    background-color: #efe7d6; /* Background color for navigation */
-    color: #633313; /* Text color for navigation links */
+    background-color: #efe7d6; 
+    color: #633313; 
     padding: 15px 0px;
-    border-bottom: 1px solid #633313; /* Border under navigation */
+    border-bottom: 1px solid #633313;
 }
 
 .container {
@@ -57,23 +57,23 @@ a,
 }
 
 .nav-links li {
-    margin: 0 15px; /* Adjust spacing between nav items */
+    margin: 0 15px; /* Adjusts the spacing between nav items */
 }
 
 .nav-links a {
     text-decoration: none;
     color: inherit;
-    padding: 10px 15px; /* Add padding around links */
-    transition: color 0.3s ease; /* Smooth transition for link color */
+    padding: 10px 15px; /* Adds the padding around links */
+    transition: color 0.3s ease; 
 }
 
 .nav-links a:hover {
-    color: #adadad; /* Change text color on hover */
+    color: #adadad; 
 }
 
 .logo {
     font-size: 1.5rem;
-    font-family: 'Segoe UI', 'Verdana', sans-serif; /* Example: changing to Arial */
+    font-family: 'Segoe UI', 'Verdana', sans-serif;
     color: #633313;
     font-weight: bold;
     text-align: left;
@@ -83,28 +83,32 @@ a,
 
 #content {
     display: flex;
-    align-items: flex-start; /* Align items at the top */
-    margin: 40px auto; /* Adjust margin as needed */
+    align-items: flex-start; 
+    margin: 40px auto;
     padding: 20px;
     margin-left: 10px;
 }
 
 .text-section {
-    flex: 2.4; /* Take remaining space */
-    font-size: 45px; /* Adjusted font size */
+    flex: 2.4;
+    font-size: 45px;
     margin-top: -10px;
     color: #633313;
     text-align: justify;
 }
 
+p {
+    margin-bottom: 30px;
+}
+
 .image-section {
-    flex: 2; /* Take remaining space */
+    flex: 2;
     text-align: right;
 }
 
 .image-section img {
-    width: 96%; /* Cover the entire width of its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 96%; 
+    height: auto;
     margin-top: -50px;
     margin-bottom: -50px;
 }
@@ -145,12 +149,12 @@ a,
 
 .beyond-text p {
     color: #633313;
-    margin-bottom: 10px; /* Adjusted margin-bottom for paragraphs */
-    margin-top: 50px; /* Adjusted margin-bottom for paragraphs */
+    margin-bottom: 10px; 
+    margin-top: 50px;
 }
 
 .beyond-text p:first-child {
-    margin-bottom: 20px; /* Increase margin-bottom for the first paragraph */
+    margin-bottom: 20px; 
 }
 
 .beyond-container {
@@ -160,7 +164,7 @@ a,
 
 .beyond-text {
     flex: 1;
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 30px;
     font-family: "Nanum Myeongjo", serif;
     margin-top: 15px;
     margin-right: 40px;
@@ -172,14 +176,14 @@ a,
 }
 
 .beyond-image img {
-    width: 75%; /* Ensure the image takes up 100% of the container width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure proper block display */
+    width: 75%; 
+    height: auto;
+    display: block;
     margin-left: 10%;
 
 }
 
-/* CONTACT */
+/* CONTACT PAGE */
 
 #contact {
     font-family: "Nanum Myeongjo", serif;
