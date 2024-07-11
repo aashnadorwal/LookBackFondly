@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4>This book is special to me because each time I pick it up, it feels like a rediscovery. My interpretations have evolved with each read, influenced by how I've changed as a person. I'm not the same as I was a year ago, and that shift has unlocked new meanings in the pages that resonate differently now.
                 Seneca's words are as relevant today as they were when he wrote them.
                 </h4>
-                <h3>Notes:</h3>
+                <h3>MY NOTES:</h3>
                 <p>You should neither become like the bad because they are many, nor be an enemy of the many because they are unlike you. Retire into yourself, as far as you can. Associate with people who are likely to improve you. Welcome those whom you are capable of improving. The process is mutual one: men learn as they teach.</p>
                 <p>Happy the man who improves other people not merely when he is in their presence but even when he is in their thoughts! And happy, too, is he who can so improve himself as not to be thrown into confusion by the thoughts of others.</p>
                 <p>Choose someone whose way of life as well as words, and whose very face as mirroring the character that lies behind it, have won your approval.</p>

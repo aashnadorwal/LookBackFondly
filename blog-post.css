@@ -84,14 +84,14 @@ button:hover {
 h3 {
     color: #633313;
     font-size: 25px;
-    font-weight:900;
+    font-weight:100;
     text-align: left; 
     margin-bottom: 10px;
     margin-top: 70px;
 }
 
 p {
-    font-weight: 900;
+    font-weight: 100;
     margin-bottom: 20px;
 }
 
