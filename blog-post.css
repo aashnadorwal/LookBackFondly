@@ -149,13 +149,13 @@ footer {
     }
 
     .logo {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         margin: 5px 0;
         text-align: center;
     }
 
     .nav-links {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         text-align: center;
         margin-top: 5px; 
         order: 2; 
