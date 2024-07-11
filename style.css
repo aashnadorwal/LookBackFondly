@@ -166,6 +166,7 @@ p {
     flex: 1;
     font-size: 30px;
     font-family: "Nanum Myeongjo", serif;
+    font-weight:500;
     margin-top: 15px;
     margin-right: 40px;
     text-align: justify;
