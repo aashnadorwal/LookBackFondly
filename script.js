@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
         'letters-from-a-stoic': {
             title: 'Letters from a Stoic by Seneca',
             category: 'Category: Philosophy',
-            date: 'Published: 15 Jan 2024',
+            date: 'Published: 28 Jun 2024',
             stars: 'Stars: ★★★★★',
             content: `
-                <h4>This book is special to me because each time I pick it up, it feels like a rediscovery. My interpretations have evolved with each read, influenced by how I've changed as a person. I'm not the same as I was a year ago, and that shift has unlocked new meanings in the pages that resonate differently now.
-                Seneca's words are as relevant today as they were when he wrote them.
+                <h4>
+                This book holds a special place in my heart because each time I read it, it feels like I'm discovering it all over again. I find myself uncovering new layers of meaning that I had previously overlooked. My interpretations have evolved with each read, influenced by how I've changed as a person over the years. I noticed that different sections began to stand out, resonating with the new perspectives and understanding I had gained. Seneca's words are as relevant today as they were when he wrote them. This book conatins 124 letters written by the Roman philosopher Lucius Annaeus Seneca to his friend and disciple, Lucilius. In my opinion, this book is a must-read for anyone interested in stoicism, philosophy, or simply seeking a deeper understanding of how to live a meaningful life.
                 </h4>
                 <h3>MY NOTES:</h3>
                 <p>You should neither become like the bad because they are many, nor be an enemy of the many because they are unlike you. Retire into yourself, as far as you can. Associate with people who are likely to improve you. Welcome those whom you are capable of improving. The process is mutual one: men learn as they teach.</p>

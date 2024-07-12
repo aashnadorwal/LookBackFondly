@@ -137,7 +137,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 540px;
     width: 300px;
     padding: 20px;
     gap: 15px;
@@ -167,15 +167,22 @@ a {
     display: inline-block;
     background-color: var(--cover);
     padding: 6px 15px;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 0;
     color: #633313;
 }
 
 .date {
     margin-top: 10px;
-    margin-bottom: 7px;
-    font-size: 13px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.stars {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #633313;
 }
 
 .end-button-container {
