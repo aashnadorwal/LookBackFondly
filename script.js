@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>We should all live with the conviction: "I wasn't born for one particular corner; the whole world's my home country."</p>
                 <p>For a person who is not aware that he is doing anything wrong has no desire to be put right. You have to catch yourself doing it before you can reform. So - to the best of your ability - demonstrate your own guilt, conduct inquiries of your own into all the evidence against yourself. Play the part first of prosecutor, then judge and finally of pleader in mitigation. Be harsh with yourself at times. </p>
                 <p>A woman is not beautiful when her ankle or arm wins compliments, but when her total appearance diverts admiration from the individual parts of her body. </p>
-                <p>No one should feel pride in anything that is not his own. Suppose he has a beautiful home and a handsome collection of servants, a lot of land under cultivation and a lot of money out at interest; not one od those things can be said to be in him - they are just things around him. Praise in him what can neither be given nor snatched away, what is peculiarly a man's.</p>
+                <p>No one should feel pride in anything that is not his own. Suppose he has a beautiful home and a handsome collection of servants, a lot of land under cultivation and a lot of money out at interest; not one of those things can be said to be in him - they are just things around him. Praise in him what can neither be given nor snatched away, what is peculiarly a man's.</p>
                 <p>Show me a man who isn't a slave; one is a slave to sex, another to money, another to ambition; all are slaves to hope or fear.</p>
                 <p>
                 </p>
@@ -32,70 +32,112 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Notes from Underground by Fyodor Dostoevsky',
             category: 'Category: Philosophy',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★★★',
             content: `
-                <p>Sed ac dictum risus, in posuere quam. Ut fermentum enim ut sem lacinia, ac facilisis urna fermentum. Nulla facilisi. Morbi ut feugiat lorem.</p>
-                <p>Fusce vestibulum augue a eros facilisis feugiat. In sit amet metus nec lectus scelerisque pellentesque.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'nausea': {
             title: 'Nausea by Jean-Paul Sartre',
             category: 'Category: Philosophy',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★★★',
             content: `
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. In vel magna nec nulla facilisis commodo.</p>
-                <p>Aliquam erat volutpat. Praesent id gravida tortor. Sed ut sapien massa. Vivamus vehicula magna nec est semper, nec volutpat orci dictum.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'the-stranger': {
             title: 'The Stranger by Albert Camus',
             category: 'Category: Literary Fiction',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★☆☆',
             content: `
-                <p>Sed ac dictum risus, in posuere quam. Ut fermentum enim ut sem lacinia, ac facilisis urna fermentum. Nulla facilisi. Morbi ut feugiat lorem.</p>
-                <p>Fusce vestibulum augue a eros facilisis feugiat. In sit amet metus nec lectus scelerisque pellentesque.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'my-body': {
             title: 'My Body by Emily Ratajkowski',
             category: 'Category: Memoir',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★★☆',
             content: `
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. In vel magna nec nulla facilisis commodo.</p>
-                <p>Aliquam erat volutpat. Praesent id gravida tortor. Sed ut sapien massa. Vivamus vehicula magna nec est semper, nec volutpat orci dictum.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'all-about-love': {
             title: 'All About Love: New Visions by Bell Hooks',
             category: 'Category: Nonfiction Essays',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★☆☆',
             content: `
-                <p>Sed ac dictum risus, in posuere quam. Ut fermentum enim ut sem lacinia, ac facilisis urna fermentum. Nulla facilisi. Morbi ut feugiat lorem.</p>
-                <p>Fusce vestibulum augue a eros facilisis feugiat. In sit amet metus nec lectus scelerisque pellentesque.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'tuesdays-with-morrie': {
             title: 'Tuesdays with Morrie by Mitch Albom',
             category: 'Category: Memoir',
             date: 'Published: 28 Jun 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★☆☆',
             content: `
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat ante. In vel magna nec nulla facilisis commodo.</p>
-                <p>Aliquam erat volutpat. Praesent id gravida tortor. Sed ut sapien massa. Vivamus vehicula magna nec est semper, nec volutpat orci dictum.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
         'ways-of-seeing': {
             title: 'Ways of Seeing by John Berger',
             category: 'Category: Nonfiction Essays',
             date: 'Published: 15 Jan 2024',
-            stars: 'My rating: ★★★☆☆',
+            stars: 'Stars: ★★★☆☆',
             content: `
-                <p>Sed ac dictum risus, in posuere quam. Ut fermentum enim ut sem lacinia, ac facilisis urna fermentum. Nulla facilisi. Morbi ut feugiat lorem.</p>
-                <p>Fusce vestibulum augue a eros facilisis feugiat. In sit amet metus nec lectus scelerisque pellentesque.</p>
+                <h4></h4>
+                <h3>MY NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             `
         },
     };
