@@ -43,7 +43,7 @@
                 <img src="assets/beyondpic.jpg" alt="Beyond Image">
             </div>
             <div class="beyond-text">
-                <p>I have always been deeply interested in exploring my creative abilities, by continually seeking new avenues for artistic expression and opportunities to create. Whether through writing, designing, or other pursuits, I find immense joy and fulfillment from bringing my visions to life.</p>
+                <p>I have always been deeply interested in exploring my creative abilities, by continually seeking new avenues for artistic expression and opportunities to create. Whether through writing, designing, or other pursuits, I find immense joy and fulfillment from bringing my visions to life. Books, in particular, have been a constant source of inspiration and exploration for me on this journey of creativity and self-discovery.</p>
                 <p>Art, in all forms, transcends one's personal boundaries—it challenges you to think creatively, pushes you to pursue your visions, and encourages you to confront and overcome obstacles. Throughout my academic journey, I've discovered that creativity isn't just a side pursuit; it's a powerful tool for problem-solving and innovation.</p>
             </div>
         </div>
@@ -51,19 +51,21 @@
     <section id="contact">
         <div class="contact-container">
             <h2>Share your thoughts or just say hi!</h2>
-            <form action="submit_form.php" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="1c98efdb-2a8c-45a9-a308-0204d998397e">
+
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-    
+        
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+    
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-    
+        
                 <button type="submit">Send Message</button>
             </form>
-    
+        
             <div class="social-buttons">
                 <a href="mailto:aashnamdorwal@gmail.com" class="email-button">Email</a>
                 <a href="https://www.linkedin.com/in/aashnadorwal" target="_blank" class="linkedin-button">LinkedIn</a>
@@ -76,7 +78,6 @@
             <p>&copy; Aashna Dorwal 2024. All Rights Reserved.</p>
         </div>
     </footer>
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

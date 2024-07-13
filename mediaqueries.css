@@ -47,7 +47,8 @@
     }
 
     .text-section {
-        font-size: 30px; 
+        font-size: 30px;
+        font-weight: 500;
         margin-top: -20px; 
     }
 
@@ -74,6 +75,7 @@
 
     .beyond-text {
         font-size: 24px; 
+        font-weight: 500;
         margin-right: 0; 
         text-align: justify;
     }
@@ -81,6 +83,7 @@
     .beyond-image img {
         width: 100%; 
         margin-left: 0; 
+        margin-bottom: 20px;
     }
 
     .contact-container {
@@ -89,6 +92,7 @@
 
     form {
         max-width: 100%; 
+        font-family: "Nanum Myeongjo", serif;
     }
 
     footer {
@@ -183,6 +187,7 @@
         width: 100%; 
         margin-left: 0; 
         margin-top: -20px;
+        margin-bottom: 20px;
     }
 
     .contact-container {
@@ -190,7 +195,8 @@
     }
 
     form {
-        max-width: 100%; 
+        max-width: 100%;
+        font-family: "Nanum Myeongjo", serif;
     }
 
     footer {

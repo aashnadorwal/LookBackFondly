@@ -164,11 +164,11 @@ a {
 }
 
 .tag {
+    margin: 0;
     display: inline-block;
     background-color: var(--cover);
     padding: 6px 15px;
     border-radius: 5px;
-    margin: 0;
     color: #633313;
 }
 
