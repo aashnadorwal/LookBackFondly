@@ -4,14 +4,6 @@
         font-size: 16px; 
     }
 
-    header {
-        padding: 8px 0; 
-    }
-
-    .published-info {
-        padding: 3px 8px; 
-    }
-
     .container {
         flex-direction: column; 
         align-items: center;
@@ -22,6 +14,7 @@
         font-size: 1.9rem;
         margin: 10px 0; 
         text-align: center;
+        margin-left: -20px;
     }
 
     .nav-links {
@@ -197,6 +190,15 @@
     form {
         max-width: 100%;
         font-family: "Nanum Myeongjo", serif;
+    }
+
+    .social-buttons {
+        display: inline-block;
+
+    }
+
+    .social-buttons a {
+        font-size: 1rem;
     }
 
     footer {
