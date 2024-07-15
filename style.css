@@ -43,7 +43,6 @@ a,
     justify-content: space-between; /* Spacing between sections */
     align-items: center;
     max-width: 1400px;
-    margin: 0 50px; /* padding around the logo for different desktop margins */
 }
 
 .nav-links {
