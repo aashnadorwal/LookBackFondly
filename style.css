@@ -43,8 +43,7 @@ a,
     justify-content: space-between; /* Spacing between sections */
     align-items: center;
     max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 0 50px; /* padding around the logo for different desktop margins */
 }
 
 .nav-links {
@@ -259,7 +258,7 @@ form button:hover {
 
 .social-buttons a {
     font-family: "Nanum Myeongjo", serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: #fafaf7;
     background-color: #633313;
