@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -48,7 +52,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -79,11 +83,16 @@ a {
 
 .logo {
     font-size: 1.5rem;
-    font-family: 'Segoe UI', 'Verdana', sans-serif; 
+    font-family: 'Segoe UI', 'Verdana', sans-serif;
     color: #633313;
     font-weight: bold;
     text-align: left;
-    margin-left: -20px;
+    text-decoration: none;
+    margin-left: 0; /* Ensure margin-left is 0 */
+    text-decoration: none;
+    padding-left: 20px; /* Adjust padding to keep it within the container */
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+
 }
 
 .header-container {
@@ -107,21 +116,28 @@ a {
 }
 
 .card {
-    flex: 0 0 calc(16.666% - 20px); /* Adjusted flex to fit 6 cards per row */
+    display: flex;
     flex-direction: column;
-    height: 405px;
-    width: 65px;
+    height: 375px;
+    width: 185px; /* Adjust width for each card */
     padding: 20px;
-    gap: 15px;
+    gap: 20px;
     background-color: white;
     border: 1px var(--standard) solid;
     border-radius: 20px;
     align-items: center;
     box-shadow: 10px 10px var(--standard);
+    margin-bottom: 40px; /* Adjust margin between cards */
+}
+
+.card img {
+    width: 100%; /* Ensure the image fills the card */
+    height: auto;
+    border-radius: 10px;
 }
 
 .card h2 {
-    color: #633313;
+    color: var(--var1); /* Use variable for consistent color */
     font-size: 22px;
 }
 
@@ -206,12 +222,15 @@ footer {
 /* Tablets and below */
 @media only screen and (max-width: 1024px) {
 
-    .screen {
-        gap: 40px; /* Adjusts gap for more space between cards */
+    .preview_pic {
+        width: 105px;
+        height: auto;
+        border-radius: 10px;
+        align-items: center; 
     }
 
-    .card {
-        flex: 0 0 calc(33.333% - 20px); /* Adjusted flex for 3 cards per row */
+    .screen {
+        gap: 40px; /* Adjusts gap for more space between cards */
     }
 
     .logo {
@@ -244,11 +263,13 @@ footer {
 /* Phones */
 @media only screen and (max-width: 600px) {
     .card {
-        flex: 0 0 calc(35% - 20px); /* Adjusted flex  for 2 cards per row */
-        height: 320px;
-        width: 350px;
-        padding-right: 20px;
+        flex: 0 0 calc(50% - 20px); /* Adjusted flex for 2 cards per row */
+        height: 340px; /* Fixed height for all cards */
+        width: calc(50% - 20px); /* Fixed width for all cards */
+        padding: 20px; /* Adjusted padding */
+        box-sizing: border-box; /* Ensure padding is included in width calculation */
     }
+
 
     .card h2 {
         font-size: 20px;

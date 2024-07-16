@@ -49,7 +49,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -58,8 +58,6 @@ a {
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     font-family: 'Arial';
 }
 
@@ -84,7 +82,12 @@ a {
     color: #633313;
     font-weight: bold;
     text-align: left;
-    margin-left: -20px;
+    text-decoration: none;
+    margin-left: 0; /* Ensure margin-left is 0 */
+    text-decoration: none;
+    padding-left: 20px; /* Adjust padding to keep it within the container */
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+
 }
 
 /* SEARCH CONTAINER */
@@ -295,14 +298,6 @@ footer {
 @media only screen and (max-width: 1024px) {
     body {
         font-size: 16px; 
-    }
-
-    header {
-        padding: 8px 0; 
-    }
-
-    .published-info {
-        padding: 3px 8px;
     }
 
     .container {

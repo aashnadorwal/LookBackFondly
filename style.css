@@ -10,20 +10,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: "Nanum Myeongjo", serif;
+html, body {
+    margin: 0;
+    padding: 0;
     background-color: #fafaf7;
-    position: relative;
-    min-height: 100vh; 
+    height: 100%;
+    width: 100%;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 16px;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
 
 a,
 .btn {
@@ -32,6 +29,9 @@ a,
 }
 
 #desktop-nav {
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #efe7d6; 
     color: #633313; 
     padding: 15px 0px;
@@ -40,29 +40,29 @@ a,
 
 .container {
     display: flex;
-    justify-content: space-between; /* Spacing between sections */
+    justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .nav-links {
-    font-family:'arial';
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial';
 }
 
 .nav-links li {
-    margin: 0 15px; /* Adjusts the spacing between nav items */
+    margin: 0 15px; /* Adjusts spacing between nav items */
 }
 
 .nav-links a {
     text-decoration: none;
     color: inherit;
-    padding: 10px 15px; /* Adds the padding around links */
-    transition: color 0.3s ease; 
+    padding: 10px 15px; /* Adds padding around links */
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -75,8 +75,11 @@ a,
     color: #633313;
     font-weight: bold;
     text-align: left;
-    margin-left: -20px;
     text-decoration: none;
+    margin-left: 0; /* Ensure margin-left is 0 */
+    text-decoration: none;
+    padding-left: 20px; /* Adjust padding to keep it within the container */
+    flex-shrink: 0; /* Prevents the logo from shrinking */
 
 }
 
@@ -160,6 +163,7 @@ p {
 .beyond-container {
     display: flex;
     max-width: 1380px;
+    align-items: center;
 }
 
 .beyond-text {
