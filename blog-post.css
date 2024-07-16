@@ -17,9 +17,8 @@ html, body {
     font-weight: bold;
     text-align: left;
     text-decoration: none;
-    margin-left: 0; /* Ensure margin-left is 0 */
+    margin-left: 10px; /* Ensure margin-left is 0 */
     text-decoration: none;
-    padding-left: 20px; /* Adjust padding to keep it within the container */
     flex-shrink: 0; /* Prevents the logo from shrinking */
 
 }
