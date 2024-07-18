@@ -7,11 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
-/* Reset default margin and padding for all elements */
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    box-sizing: border-box; 
 }
 
 html, body {
@@ -20,23 +20,22 @@ html, body {
     background-color: #fafaf7;
     font-family: "Nanum Myeongjo", serif;
     font-size: 16px;
-    height: 100%; /* Set height to 100% if needed */
+    height: 100%; 
 }
 
 .container {
     display: flex;
-    justify-content: space-between; /* Adjust as per your design */
-    align-items: center; /* Adjust as per your design */
-    max-width: 1600px; /* Adjust based on your design */
-    margin: 0 auto; /* Center align container */
-    padding: 0 20px; /* Adjust padding as per your design */
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1600px;
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
 
-/* Example styling for flex items within .container */
 .item {
-    flex: 1; /* Example: Make items expand to fill available space */
-    padding: 10px; /* Example padding */
-    border: 1px solid #ccc; /* Example border */
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
 }
 
 a,
@@ -169,7 +168,6 @@ p {
 
 .beyond-container {
     display: flex;
-    max-width: 1380px;
     align-items: center;
 }
 
@@ -178,7 +176,6 @@ p {
     font-size: 30px;
     font-family: "Nanum Myeongjo", serif;
     font-weight:500;
-    margin-top: 15px;
     margin-right: 40px;
     text-align: justify;
 }
