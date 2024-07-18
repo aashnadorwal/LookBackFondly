@@ -184,6 +184,7 @@
 
     .container {
         flex-direction: column; 
+        max-width: 2600px;
         align-items: center;
         padding: 0 10px; 
     }
