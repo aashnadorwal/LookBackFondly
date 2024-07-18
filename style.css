@@ -7,19 +7,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+/* Reset default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
 html, body {
     margin: 0;
     padding: 0;
     background-color: #fafaf7;
-    height: 100%;
-    width: 100%;
     font-family: "Nanum Myeongjo", serif;
     font-size: 16px;
+    height: 100%; /* Set height to 100% if needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as per your design */
+    align-items: center; /* Adjust as per your design */
+    max-width: 1600px; /* Adjust based on your design */
+    margin: 0 auto; /* Center align container */
+    padding: 0 20px; /* Adjust padding as per your design */
+}
+
+/* Example styling for flex items within .container */
+.item {
+    flex: 1; /* Example: Make items expand to fill available space */
+    padding: 10px; /* Example padding */
+    border: 1px solid #ccc; /* Example border */
 }
 
 a,
@@ -36,15 +53,6 @@ a,
     color: #633313; 
     padding: 15px 0px;
     border-bottom: 1px solid #633313;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .nav-links {
