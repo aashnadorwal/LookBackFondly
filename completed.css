@@ -49,7 +49,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1600px;
+    max-width: 2600px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -294,7 +294,7 @@ footer {
 
 
 /* Media Queries for tablets and smaller screens */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1080px) {
     body {
         font-size: 16px; 
     }
@@ -333,53 +333,14 @@ footer {
         margin-left: 0;
     }
 
-    .text-section {
-        font-size: 30px; 
-        margin-top: -20px; 
-    }
-
-    .image-section img {
-        width: 100%; 
-        margin-top: 0; 
-    }
-
-    .explore-button-container {
-        text-align: center; 
-        margin: 20px 0; 
-        margin-top: 50px;;
-    }
-
-    .explore-button {
-        font-size: 1rem; 
-        padding: 8px 16px; 
-    }
-
-    .beyond-container {
-        flex-direction: column; 
-        align-items: center; 
-    }
-
-    .beyond-text {
-        font-size: 24px; 
-        margin-right: 0; 
-        text-align: justify;
-    }
-
-    .beyond-image img {
-        width: 100%; 
-        margin-left: 0;
-    }
-
-    .contact-container {
-        max-width: 100%; 
-    }
-
-    form {
-        max-width: 100%; 
+    .end-button-container {
+        bottom: 20px;
+        margin-bottom: 40px;
     }
 
     footer {
         text-align: center;
+
     }
 }
 
@@ -434,45 +395,7 @@ footer {
         margin-top: -30px; 
     }
 
-    .image-section img {
-        width: 100%; 
-        margin-top: 5px; 
-    }
 
-    .explore-button-container {
-        text-align: center; 
-        margin: 20px 0; 
-        margin-top: 20%;
-        margin-bottom: 15%;
-    }
-
-    .explore-button {
-        font-size: 16px; 
-        padding: 8px 12px; 
-        margin-top: 20%;
-    }
-
-    .beyond-container {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .beyond-text {
-        margin-top: -10px;
-        font-size: 20px; 
-        margin-right: 0; 
-        text-align: justify;
-    }
-
-    .beyond-image img {
-        width: 100%;
-        margin-left: 0;
-        margin-top: -20px;
-    }
-
-    .contact-container {
-        max-width: 100%; 
-    }
 
     form {
         max-width: 100%; 

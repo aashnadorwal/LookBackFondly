@@ -1,5 +1,5 @@
 /* Media Queries for tablets and smaller screens */
-@media only screen and (max-width: 1017px) {
+@media only screen and (max-width: 1024px) {
     body {
         font-size: 16px; 
     }
@@ -9,7 +9,7 @@
     }
 
     .logo {
-        font-size: 1.8rem; 
+        font-size: 1.5rem; 
         margin: 10px 0; 
         text-align: center;
     }
@@ -31,13 +31,14 @@
     }
 
     #content {
-        flex-direction: column; 
         padding: 20px; 
         margin-left: 0;
     }
 
     .text-section {
+        flex-direction: column; 
         font-size: 30px; 
+        margin-right: 20px;
     }
 
     .image-section img {
@@ -57,20 +58,20 @@
         padding: 8px 16px; 
     }
 
+
     .beyond-container {
-        flex-direction: column; 
         align-items: center;
     }
 
     .beyond-text {
-        font-size: 12px; 
+        font-size: 24px; 
         font-weight: 500;
         margin-right: 0; 
         text-align: justify;
     }
 
     .beyond-image img {
-        width: 100%; 
+        width: 90%; 
         margin-left: 0; 
     }
 
@@ -86,6 +87,88 @@
     footer {
         text-align: center;
     }
+}
+
+/* Media Queries for Desktops */
+@media only screen and (min-width: 1080px) {
+    .container {
+        padding: 0 20px; 
+    }
+
+    .logo {
+        font-size: 1.5rem; 
+    }
+
+    .nav-links {
+        margin-top: 0; 
+    }
+
+    .nav-links li {
+        margin: 0 15px; 
+    }
+
+    .nav-links a {
+        padding: 10px 15px;
+    }
+
+    #content {
+        flex-direction: row;
+        margin: 30px auto; 
+    }
+
+    .text-section {
+        font-size: 45px; 
+    }
+
+    .image-section {
+        flex: 1.9;
+        text-align: right; 
+    }
+
+    .image-section img {
+        width: 96%; 
+        height: auto;
+        margin-top: -50px; 
+        margin-bottom: -50px; 
+    }
+
+    .explore-button-container {
+        text-align: left; 
+        margin-left: 20px; 
+    }
+
+    .explore-button {
+        font-size: 1.25rem; 
+        padding: 10px 20px; 
+    }
+
+    .beyond-container {
+        flex-direction: row;
+        align-items: center; 
+
+    .beyond-text {
+        font-size: 33px; 
+    }
+
+    .beyond-image img {
+        width: 80%; 
+        height: auto;
+        display: block;
+    }
+
+    .contact-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    form {
+        font-family: "Nanum Myeongjo", serif; 
+    }
+
+    footer {
+        text-align: center; 
+    }
+}
 }
 
 /* Media Queries for phones */
@@ -132,7 +215,7 @@
 
     #content {
         flex-direction: column; 
-        padding: 60px; 
+        padding: 30px; 
         margin-left: 0; 
     }
 
@@ -149,14 +232,20 @@
     .explore-button-container {
         text-align: center; 
         margin: 20px 0; 
-        margin-top: 20%;
-        margin-bottom: 15%;
+        margin-top: -10%;
+        margin-bottom: -5%;
     }
 
     .explore-button {
         font-size: 16px; 
         padding: 8px 12px; 
         margin-top: 20%;
+    }
+
+    #profile {
+        flex-direction: column; 
+        padding: 30px; 
+        margin-left: 0; 
     }
 
     .beyond-container {
