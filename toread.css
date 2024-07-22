@@ -126,7 +126,7 @@ a {
     border-radius: 20px;
     align-items: center;
     box-shadow: 10px 10px var(--standard);
-    margin-bottom: 40px; /* Adjust margin between cards */
+    margin-bottom: 10px; /* Adjust margin between cards */
 }
 
 .card img {
@@ -262,11 +262,11 @@ footer {
 /* Phones */
 @media only screen and (max-width: 600px) {
     .card {
-        flex: 0 0 calc(50% - 20px); /* Adjusted flex for 2 cards per row */
-        height: 340px; /* Fixed height for all cards */
-        width: calc(50% - 20px); /* Fixed width for all cards */
-        padding: 20px; /* Adjusted padding */
-        box-sizing: border-box; /* Ensure padding is included in width calculation */
+        flex: 0 0 calc(50% - 20px);
+        height: 340px; 
+        width: calc(50% - 20px);
+        padding: 20px; 
+        box-sizing: border-box; 
     }
 
 

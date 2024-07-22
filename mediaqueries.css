@@ -1,5 +1,5 @@
 /* Media Queries for tablets and smaller screens */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1000px) {
     body {
         font-size: 16px; 
     }
@@ -38,7 +38,6 @@
     .text-section {
         flex-direction: column; 
         font-size: 30px; 
-        margin-right: 20px;
     }
 
     .image-section img {
@@ -137,7 +136,7 @@
         align-items: center; 
 
     .beyond-text {
-        font-size: 30px; 
+        font-size: 32px; 
         padding-left: 100px;
     }
 
@@ -197,8 +196,7 @@
 
     #content {
         flex-direction: column; 
-        padding: 30px; 
-        margin-left: 0; 
+        padding: 20px; 
     }
 
     .text-section {
@@ -239,6 +237,7 @@
         margin-top: -10px;
         font-size: 20px; 
         margin-right: 0; 
+        padding: 20px;
         text-align: justify;
     }
 

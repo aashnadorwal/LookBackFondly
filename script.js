@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             stars: 'Stars: ★★★★★',
             content: `
                 <h4>
-                This book holds a special place in my heart because each time I read it, it feels like I'm discovering it all over again. I find myself uncovering new layers of meaning that I had previously overlooked. My interpretations have evolved with each read, influenced by how I've changed as a person over the years. I noticed that different sections began to stand out, resonating with the new perspectives and understanding I had gained. Seneca's words are as relevant today as they were when he wrote them. This book conatins 124 letters written by the Roman philosopher Lucius Annaeus Seneca to his friend and disciple, Lucilius. In my opinion, this book is a must-read for anyone interested in stoicism, philosophy, or simply seeking a deeper understanding of how to live a meaningful life.
+                This book holds a special place in my heart. Each time I read it, it feels like I'm discovering it all over again. I find myself uncovering new layers of meaning that I had previously overlooked. My interpretations have evolved with each read, influenced by how I've changed as a person over the years. I noticed that different sections began to stand out, resonating with the new perspectives and understanding I had gained. Seneca's words are as relevant today as they were when he wrote them. This book contains 124 letters written by the Roman philosopher Lucius Annaeus Seneca to his friend and disciple, Lucilius. In my opinion, this book is a must-read for anyone interested in stoicism, philosophy, or simply seeking a deeper understanding of how to live a meaningful life.
                 </h4>
                 <h3>MY NOTES:</h3>
                 <p>You should neither become like the bad because they are many, nor be an enemy of the many because they are unlike you. Retire into yourself, as far as you can. Associate with people who are likely to improve you. Welcome those whom you are capable of improving. The process is mutual one: men learn as they teach.</p>
@@ -28,9 +28,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>So long as you carry the sources of your troubles about with you, those troubles will continue to harass and plague you wherever you wander on land or on sea. Does it surprise you that running away doesn't do you any good? The things you're running away from are with you all the time.</p>
                 <p>If you wish to be stripped of your vices you must get right away from the examples others set of them. The miser, the swindler, the bully, the cheat, who would do you a lot of harm by simply being near you, are actually within you. Move to better company.</p>
                 <p>People who know no self-restraint lead stormy and disordered lives, passing their time in a state of fear commensurate with the injuries they do to others, never able to relax. After every act they tremble, paralyzed, their consciences continually demanding an answer, not allowing them to get on with other things. To expect punishment is to suffer it; and to earn it is to expect it. A guilty person sometimes has the luck to escape detection, but never to feel sure of it.</p>
-                <p>No man's good by accident. Virtue has to be learnt. Pleasure is a poor and petty thing. No value should be set on it: it's something we share with dumb animals - the minutest and most insignificant creatures scutter after it. Glory's an empty, changeable thing, as fickle as the weather. Poverty's no evil to anyone unless he kicks against it. Death is not an evil. What is it then? The one law mankind has that is free of all discrimination. Superstition is an idiotic heresy: it fears those it should love: it dishonours those it worships. For what difference does it make whether you deny the gods or bring them into disrepute?</p>
+                <p>No man's good by accident. Virtue has to be learnt. Pleasure is a poor and petty thing. No value should be set on it: it's something we share with dumb animals - the minutest and most insignificant creatures scutter after it. Glory's an empty, changeable thing, as fickle as the weather. Poverty's no evil to anyone unless he kicks against it. Death is not an evil. What is it then? The one law mankind has that is free of all discrimination. Superstition is an idiotic heresy: it fears those it should love: it dishonors those it worships. For what difference does it make whether you deny the gods or bring them into disrepute?</p>
                 <p>Philosophy has no business to supply vice with excuses; a sick man who is encouraged to live in a reckless manner by his doctor has not a hope of getting well.</p>
                 </p>
+            `
+        },
+        'all-about-love': {
+            title: 'All About Love: New Visions by Bell Hooks',
+            category: 'Category: Nonfiction Essays',
+            date: 'Published: 15 Jan 2024',
+            stars: 'Stars: ★★★☆☆',
+            content: `
+                <h4>
+                As the title suggests, this book is all about love - familial, platonic, romantic, and self-love. Bell Hooks dives into 'love' and how it is hindered by patriarchy, capitalism & gender roles.
+                
+                To be honest, I've owned this book for a couple of years, but I never finished it until now. While Hooks' exploration of love is easily digestible, I found the content to be somewhat generic at times. The discussions on intersectionality, which I had hoped would provide a more nuanced perspective, were quite limited.
+                </h4>
+                <h3>MY NOTES:</h3>
+                <p>It is easier to articulate the pain of love's absence than to describe its presence and meaning in out lives.</p>
+                <p>Everywhere we learn that love is important, and yet we are bombarded by its failure. </p>
+                <p>Male fantasy is seen as something that can create reality, whereas female fantasy is regarded as pure escape. Men often write about love through fantasy, through what they imagine is possible rather than what they concretely know.</p>
+                <p>Everyone assumes that we will know how to love instinctively. Those of us who do not learn how to love among family are expected to experience love in romantic relationships. However, this love often eludes us. And we spend a lifetime undoing the damage cause by cruelty, neglect, and all manner of lovelessness experienced in our families of origin and in relationships where we simply did not know what to do. </p>
+                <p>To my child's mind love was the good feeling you got when  family treated you like you mattered. Love was always and only about good feeling.</p>
+                <p>Loving justice between a man and a woman does not stand a chance when other men's manhood matters more. When a man has decided to love manhood more than justice, there are predictable consequences in all his relationships with women. </p>
+                <p>Learning to live as a man of conscience means deciding that your loyalty to the people whom you love is always more important than whatever lingering loyalty you may sometimes feel to other men's judgement on your manhood. </p>
+                <p>Spiritual life is first and foremost about commitment to a way of thinking and behaving that honors principles of inter-being and interconnectedness. </p>
+                <p>All other spiritual teachings are in vain if we cannot love. Anyone who does not know love is still in death. All awakening to love is spiritual awakening.</p>
+                <p>
             `
         },
         'notes-from-underground': {
@@ -86,22 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'Category: Memoir',
             date: 'Published: 15 Jan 2024',
             stars: 'Stars: ★★★★☆',
-            content: `
-                <h4></h4>
-                <h3>MY NOTES:</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            `
-        },
-        'all-about-love': {
-            title: 'All About Love: New Visions by Bell Hooks',
-            category: 'Category: Nonfiction Essays',
-            date: 'Published: 15 Jan 2024',
-            stars: 'Stars: ★★★☆☆',
             content: `
                 <h4></h4>
                 <h3>MY NOTES:</h3>
