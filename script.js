@@ -40,21 +40,23 @@ document.addEventListener('DOMContentLoaded', function() {
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4>
-                As the title suggests, this book is all about love - familial, platonic, romantic, and self-love. Bell Hooks dives into 'love' and how it is hindered by patriarchy, capitalism & gender roles.
-                
-                To be honest, I've owned this book for a couple of years, but I never finished it until now. While Hooks' exploration of love is easily digestible, I found the content to be somewhat generic at times. The discussions on intersectionality, which I had hoped would provide a more nuanced perspective, were quite limited.
+                As the title suggests, this book is all about love—familial, platonic, romantic, and self-love. Bell Hooks explores how love is hindered by patriarchy, capitalism, and gender roles. She challenges conventional views and advocates for a more inclusive and compassionate approach to relationships.
+                </h4>
+                <h4>
+                To be honest, I've owned this book for a couple of years, but haven't finished it until now. While Hooks' exploration of love is digestible and insightful, I found it be somewhat generic at times. The discussions on intersectionality, which I hoped would provide a deeper perspective, were limited. However, the book's critique of societal norms and its call for love ethics are thought-provoking and valuable. It's a worthwhile read for those interested in how societal structures affect our understanding of love.
                 </h4>
                 <h3>MY NOTES:</h3>
-                <p>It is easier to articulate the pain of love's absence than to describe its presence and meaning in out lives.</p>
+                <p>It is easier to articulate the pain of love's absence than to describe its presence and meaning in our lives.</p>
                 <p>Everywhere we learn that love is important, and yet we are bombarded by its failure. </p>
-                <p>Male fantasy is seen as something that can create reality, whereas female fantasy is regarded as pure escape. Men often write about love through fantasy, through what they imagine is possible rather than what they concretely know.</p>
                 <p>Everyone assumes that we will know how to love instinctively. Those of us who do not learn how to love among family are expected to experience love in romantic relationships. However, this love often eludes us. And we spend a lifetime undoing the damage cause by cruelty, neglect, and all manner of lovelessness experienced in our families of origin and in relationships where we simply did not know what to do. </p>
                 <p>To my child's mind love was the good feeling you got when  family treated you like you mattered. Love was always and only about good feeling.</p>
                 <p>Loving justice between a man and a woman does not stand a chance when other men's manhood matters more. When a man has decided to love manhood more than justice, there are predictable consequences in all his relationships with women. </p>
                 <p>Learning to live as a man of conscience means deciding that your loyalty to the people whom you love is always more important than whatever lingering loyalty you may sometimes feel to other men's judgement on your manhood. </p>
+                <p>Male fantasy is seen as something that can create reality, whereas female fantasy is regarded as pure escape. Men often write about love through fantasy, through what they imagine is possible rather than what they concretely know.</p>
                 <p>Spiritual life is first and foremost about commitment to a way of thinking and behaving that honors principles of inter-being and interconnectedness. </p>
                 <p>All other spiritual teachings are in vain if we cannot love. Anyone who does not know love is still in death. All awakening to love is spiritual awakening.</p>
-                <p>
+                <p>To return to love, to get the love we always wanted but never had, to have the love we want but are not prepared to give, we seek romantic relationships. We believe these relationships, more than any other, will rescue and redeem us. True love does have the power to redeem but only if we are ready for redemption. Love saves us only if we want to be saved.</p>
+
             `
         },
         'notes-from-underground': {
