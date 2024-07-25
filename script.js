@@ -5,13 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
         'letters-from-a-stoic': {
             title: 'Letters from a Stoic by Seneca',
             category: 'Category: Philosophy',
-            date: 'Published: 28 Jun 2024',
+            date: 'Published: June 28, 2024',
             stars: 'Stars: ★★★★★',
             content: `
                 <h4>
-                This book holds a special place in my heart. Each time I read it, it feels like I'm discovering it all over again. I find myself uncovering new layers of meaning that I had previously overlooked. My interpretations have evolved with each read, influenced by how I've changed as a person over the years. I noticed that different sections began to stand out, resonating with the new perspectives and understanding I had gained. Seneca's words are as relevant today as they were when he wrote them. This book contains 124 letters written by the Roman philosopher Lucius Annaeus Seneca to his friend and disciple, Lucilius. In my opinion, this book is a must-read for anyone interested in stoicism, philosophy, or simply seeking a deeper understanding of how to live a meaningful life.
+                This book holds a special place in my heart. Each time I read it, it feels like I'm discovering it all over again. I find myself uncovering new layers of meaning that I had previously overlooked. My interpretations have evolved with each read, influenced by how I've changed as a person over the years. I noticed that different sections began to stand out, resonating with the new perspectives and understanding I had gained. </h4>
+                <h4>Seneca's words are as relevant today as they were when he wrote them. This book contains 124 letters written by the Roman philosopher Lucius Annaeus Seneca to his friend and disciple, Lucilius. In my opinion, this book is a must-read for anyone interested in stoicism, philosophy, or simply seeking a deeper understanding of how to live a meaningful life.
                 </h4>
-                <h3>MY NOTES:</h3>
+                <h3>NOTES:</h3>
                 <p>You should neither become like the bad because they are many, nor be an enemy of the many because they are unlike you. Retire into yourself, as far as you can. Associate with people who are likely to improve you. Welcome those whom you are capable of improving. The process is mutual one: men learn as they teach.</p>
                 <p>Happy the man who improves other people not merely when he is in their presence but even when he is in their thoughts! And happy, too, is he who can so improve himself as not to be thrown into confusion by the thoughts of others.</p>
                 <p>Choose someone whose way of life as well as words, and whose very face as mirroring the character that lies behind it, have won your approval.</p>
@@ -36,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'all-about-love': {
             title: 'All About Love: New Visions by Bell Hooks',
             category: 'Category: Nonfiction Essays',
-            date: 'Published: 15 Jan 2024',
+            date: 'Published: July 22, 2024',
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4>
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4>
                 To be honest, I've owned this book for a couple of years, but haven't finished it until now. While Hooks' exploration of love is digestible and insightful, I found it be somewhat generic at times. The discussions on intersectionality, which I hoped would provide a deeper perspective, were limited. However, the book's critique of societal norms and its call for love ethics are thought-provoking and valuable. It's a worthwhile read for those interested in how societal structures affect our understanding of love.
                 </h4>
-                <h3>MY NOTES:</h3>
+                <h3>NOTES:</h3>
                 <p>It is easier to articulate the pain of love's absence than to describe its presence and meaning in our lives.</p>
                 <p>Everywhere we learn that love is important, and yet we are bombarded by its failure. </p>
                 <p>Everyone assumes that we will know how to love instinctively. Those of us who do not learn how to love among family are expected to experience love in romantic relationships. However, this love often eludes us. And we spend a lifetime undoing the damage cause by cruelty, neglect, and all manner of lovelessness experienced in our families of origin and in relationships where we simply did not know what to do. </p>
@@ -59,6 +60,50 @@ document.addEventListener('DOMContentLoaded', function() {
 
             `
         },
+        'my-body': {
+            title: 'My Body by Emily Ratajkowski',
+            category: 'Category: Memoir',
+            date: 'Published: July 25, 2024',
+            stars: 'Stars: ★★★★☆',
+            content: `
+                <h4>
+                To put it simply, I liked this book a lot. Emily Ratajkowski is brutally honest in this collection of self-reflective, intimate, personal essays. She discusses the commodification of her body throughout her career as a model, grappling with her own beauty and objectification in a patriarchal & capitalistic world. She is open about how the objectification of her body has financially benefited her and brought her fame, but she's never considered it true empowerment. </h4>
+                <h4>
+                The book is full of contradictions, and honestly, it's why I found it so compelling. Emily doesn't present a black-and-white view or gloss over her experiences and choices. Instead, she shares a nuanced and complex relationship with her mind and body, much like the rest of us. If you're interested in a raw and reflective take on these themes, this book is definitely worth reading.
+                </h4>
+
+                <h3>NOTES:</h3>
+                <p>It had never occurred to me that the women who gained their power from beauty were indebted to the men whose desire granted them that power in the first place. Those men were the ones in control, not the women the world fawned over. Facing the reality of the dynamics at play would have meant admitting how limited my power really was—how limited any woman's power is when she survives and even succeeds in the world as a thing to be looked at</p>
+                <p>I know that embracing anger means relinquishing that control, that assessment, that distance from myself, but I am desperate for control. I would rather hurt myself--metaphorically stab myself--than let anyone else hold the knife.</p>
+                <p>I do remember that as a young girl I prayed for beauty. I'd lie in bed, squeeze my eyes shut, and concentrate so hard that I broke out in a sweat underneath the covers. I believed that for God to take you seriously, you had to make your mind as blank as possible and then focus on the expanding spots of light behind your eyelids and think only of the one thing you desperately wished for.</p>
+                <p>I think of her and the other naked women who line the walls and fill the halls of museums, some so ancient the color has washed from their bodies and their marble heads have fallen off. It would be easy to mistake these displays for symbols of respect, for an honor. But what were their lives? And what were their names? no one remembers.</p>
+                <p>The world celebrates and rewards women who are chosen by powerful men.</p>
+                <p>I read once that women are more likely than men to cry when they are angry. I know that women cry out of shame. We are afraid of our anger, embarrassed by the way that it transforms us. We cry to quell what we feel, even when it's trying to tell us something, even when it has every right to exist.</p>
+                <p>I wonder how many women you've disregarded in your life, written off, because you assumed they had nothing to offer beyond the way they looked. How quickly they learned that the stuff in their heads was of less value than the shape of their bodies.</p>
+                <p>How funny that men view the life cycles of women so simply! From sex object to mother to what? Invisibility?</p>
+                <p>I thought of my mother's belief that spaces hold memories, that walls take on meaning, that homes become a part of us, just as people do...I wondered whether the more I became a woman and the more space I occupied apart from her, the more she would deteriorate.</p>
+                <p>I so desperately craved men's validation that I accepted it even when it came wrapped in disrespect.</p>
+                <p>I will proclaim all of my mistakes and contradictions, for all the women who cannot do so, for all the women we've called muses without learning their names, whose silence we mistook for consent. I stood on their shoulders to get here.</p>
+                <p>I want to calculate my beauty to protect myself, to understand exactly how much power and lovability I have.</p>
+
+            `
+        },
+        'ways-of-seeing': {
+            title: 'Ways of Seeing by John Berger',
+            category: 'Category: Nonfiction Essays',
+            date: 'Published: July 28th, 2024',
+            stars: 'Stars: ★★★☆☆',
+            content: `
+                <h4></h4>
+                <h3>NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            `
+        },
         'notes-from-underground': {
             title: 'Notes from Underground by Fyodor Dostoevsky',
             category: 'Category: Philosophy',
@@ -66,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
             stars: 'Stars: ★★★★★',
             content: `
                 <h4></h4>
-                <h3>MY NOTES:</h3>
+                <h3>NOTES:</h3>
                 <p></p>
                 <p></p>
                 <p></p>
@@ -107,42 +152,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p></p>
             `
         },
-        'my-body': {
-            title: 'My Body by Emily Ratajkowski',
-            category: 'Category: Memoir',
-            date: 'Published: 15 Jan 2024',
-            stars: 'Stars: ★★★★☆',
-            content: `
-                <h4></h4>
-                <h3>MY NOTES:</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            `
-        },
         'tuesdays-with-morrie': {
             title: 'Tuesdays with Morrie by Mitch Albom',
             category: 'Category: Memoir',
             date: 'Published: 28 Jun 2024',
-            stars: 'Stars: ★★★☆☆',
-            content: `
-                <h4></h4>
-                <h3>MY NOTES:</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            `
-        },
-        'ways-of-seeing': {
-            title: 'Ways of Seeing by John Berger',
-            category: 'Category: Nonfiction Essays',
-            date: 'Published: 15 Jan 2024',
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4></h4>
