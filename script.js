@@ -88,27 +88,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
             `
         },
+        'notes-from-underground': {
+            title: 'Notes from Underground by Fyodor Dostoevsky',
+            category: 'Category: Philosophical Fiction',
+            date: 'Published: July 31, 2024',
+            stars: 'Stars: ★★★★☆',
+            content: `
+                <h4></h4>
+                <h3>NOTES:</h3>
+                <p>The pleasure of despair. But then, it is in despair that we find the most acute pleasure, especially when we are aware of the hopelessness of the situation... everything is a mess in which it is impossible to tell what's what, but that despite this impossibility and deception it still hurts you, and the less you can understand, the more it hurts.</p>
+                <p>How can a man of consciousness have the slightest respect for himself?</p>
+                <p>I tell you solemnly, that I have many times tried to become an insect. But I was not equal even to that. I swear, gentlemen, that to be too conscious is an illness- a real thorough-going illness.</p>
+                <p>It is clear to me now that, owing to my unbounded vanity and to the high standard I set for myself, I often looked at myself with furious discontent, which verged on loathing, and so I inwardly attributed the same feeling to everyone.</p>
+                <p>I admit that twice two makes four is an excellent thing, but if we are to give everything its due, twice two makes five is sometimes a very charming thing too.</p>
+                <p>But what can a decent man speak of with most pleasure? Answer: Of himself. Well, so I will talk about myself.</p>
+                <p>It was from feeling oneself that one had reached the last barrier, that it was horrible, but that it could not be otherwise; that there was no escape for you; that you never could become a different man; that even if time and faith were still left you to change into something different you would most likely not wish to change; or if you did wish to, even then you would do nothing; because perhaps in reality there was nothing for you to change into.</p>
+                <p>In despair there are the most intense enjoyments, especially when one is very acutely conscious of the hopelessness of one's position.</p>
+                <p>Perhaps I consider myself an intelligent man, only because all my life I have been able neither to begin nor to finish anything. Granted I am a babbler, a harmless vexatious babbler, like all of us. But what is to be done if the direct and sole vocation of every intelligent man is babble, that is, the intentional pouring of water through a sieve?</p>
+                <p>In every man’s memories there are such things as he will reveal not to everyone, but perhaps only to friends. There are also such as he will reveal not even to friends, but only to himself, and that in secret. Then, finally, there are such as a man is afraid to reveal even to himself, and every decent man will have accumulated quite a few things of this sort.</p>
+                <p>For goodness sake,' they'll cry, 'you cannot argue against it--two times two is four! Nature doesn't consult you; it doesn't give a damn for your wishes or whether its laws please or do not please you. You must accept it as it is, and hence accept all consequences. A wall is indeed a wall. ...' And so on and so forth. Good God, what do I care about the laws of nature and arithmetic if, for one reason or another, I don't like these laws, including the 'two times two is four'? Of course, I cannot break through this wall with my head if I don't have the strength to break through it, but neither will I accept it simply because I face a stone wall and am not strong enough.</p>
+                <p>Dreams, as we all know, are very curious things: certain incidents in them are presented with quite uncanny vividness, each detail executed with the finishing touch of a jeweller, while others you leap across as though entirely unaware of, for instance, space and time. Dreams seem to be induced not by reason but by desire, not by the head but by the heart, and yet what clever tricks my reason has sometimes played on me in dreams!</p>
+                <p>They did not strive to gain knowledge of life as we strive to understand it, because their lives were full. But their knowledge was higher and deeper than the knowledge we derive from our science; for our science seeks to explain what life is and strives to understand it in order to teach others how to live, while they knew how to live without science.</p>
+                <p>Oh, these people were not concerned whether I understood them or not; they loved me without it. But I knew too that they would never be able to understand me, and for that reason I hardly ever spoke to them of it.</p>
+                <p>I was overpowered by the mere sensation of that dream and it alone survived in my sorely wounded heart.</p>
+                <p>So much have we lost touch with 'real life' that we occasionally feel a kind of disgust for it and so can't bear to be reminded of it. For we have arrived at the point where we look on 'real life' as toil, almost as compulsory service, and all of us privately agree that 'life' as we find it in book is better.</p>
+                <p></p>
+
+            `
+        },
         'ways-of-seeing': {
             title: 'Ways of Seeing by John Berger',
             category: 'Category: Nonfiction Essays',
             date: 'Published: July 28th, 2024',
             stars: 'Stars: ★★★☆☆',
-            content: `
-                <h4></h4>
-                <h3>NOTES:</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            `
-        },
-        'notes-from-underground': {
-            title: 'Notes from Underground by Fyodor Dostoevsky',
-            category: 'Category: Philosophy',
-            date: 'Published: 15 Jan 2024',
-            stars: 'Stars: ★★★★★',
             content: `
                 <h4></h4>
                 <h3>NOTES:</h3>
@@ -191,18 +203,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Search Functionality
     function searchBooks() {
-        var input = document.getElementById("searchInput").value.toLowerCase(); // Retrieve search input value
-        var cards = document.querySelectorAll(".card"); // Get all blog post cards
+        var input = document.getElementById("searchInput").value.toLowerCase();
+        var cards = document.querySelectorAll(".card"); // Gets all blog post cards
 
         // Loop through each card
         cards.forEach(function(card) {
-            var title = card.querySelector("h2").textContent.toLowerCase(); // Get the title of the current card
+            var title = card.querySelector("h2").textContent.toLowerCase(); 
 
             // Checks if the title contains the search input
             if (title.includes(input)) {
-                card.style.display = ""; // Shos the card
+                card.style.display = "";
             } else {
-                card.style.display = "none"; // Hides the card
+                card.style.display = "none"; 
             }
         });
     }
@@ -213,3 +225,27 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for search input
     document.getElementById("searchInput").addEventListener("input", searchBooks);
 });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                searchBooks();
+            }
+        });
+    });
+
+    function searchBooks() {
+        const input = document.getElementById('searchInput').value.toLowerCase();
+        const cards = document.getElementsByClassName('card');
+        
+        Array.from(cards).forEach(card => {
+            const title = card.getElementsByTagName('h2')[0].innerText.toLowerCase();
+            if (title.includes(input)) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
