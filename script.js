@@ -91,10 +91,15 @@ document.addEventListener('DOMContentLoaded', function() {
         'notes-from-underground': {
             title: 'Notes from Underground by Fyodor Dostoevsky',
             category: 'Category: Philosophical Fiction',
-            date: 'Published: July 31, 2024',
+            date: 'Published: August 7, 2024',
             stars: 'Stars: ★★★★☆',
             content: `
-                <h4></h4>
+                <h4>
+                Dostoevsky offers an exploration of the human psyche, themes of despair, consciousness, and the nature of reality. The narrator is an isolated and bitter man. He finds pleasure in his own suffering, and the intense awareness of his hopelessness. His high self-standards lead him to loathe himself and assume others feel the same. </h4>
+                <h4>
+                I enjoyed this book for several reasons. The narrator's raw and honest introspection provided a unique perspective on self-awareness and the paradoxes of human consciousness. He's dislikable, bitter & selfish, yet shockingly relatable at times. Dostoevsky’s intense portrayal of human nature is what makes this book so compelling. It’s a challenging read, but a book I’d love to read again.</h4>
+
+
                 <h3>NOTES:</h3>
                 <p>The pleasure of despair. But then, it is in despair that we find the most acute pleasure, especially when we are aware of the hopelessness of the situation... everything is a mess in which it is impossible to tell what's what, but that despite this impossibility and deception it still hurts you, and the less you can understand, the more it hurts.</p>
                 <p>How can a man of consciousness have the slightest respect for himself?</p>
