@@ -1,5 +1,5 @@
 /* Media Queries for tablets and smaller screens */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     body {
         font-size: 16px; 
     }
@@ -79,7 +79,7 @@
 }
 
 /* Media Queries for Desktops */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .container {
         padding: 0 20px; 
     }
@@ -136,7 +136,7 @@
         align-items: center; 
 
     .beyond-text {
-        font-size: 32px; 
+        font-size: 30px; 
         padding-left: 100px;
     }
 
@@ -149,6 +149,17 @@
         text-align: center; 
     }
 }
+}
+
+@media only screen and (min-width: 1600px) {
+    .beyond-image img {
+        width: 100%; 
+        height: auto;
+    }
+    .beyond-text {
+        font-size: 37px; 
+        padding-left: 100px;
+    }
 }
 
 /* Media Queries for phones */
