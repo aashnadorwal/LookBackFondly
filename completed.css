@@ -148,6 +148,11 @@ a {
     border-radius: 20px;
     align-items: center;
     box-shadow: 10px 10px var(--standard);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .card h2 {

@@ -120,11 +120,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p></p>
 
             `
+
+        },
+        'm-train': {
+            title: 'M Train: A Memoir by Patti Smith',
+            category: 'Category: Memoir',
+            date: 'Published: August 7, 2024',
+            stars: 'Stars: ★★★☆☆',
+            content: `
+                <h4></h4>
+                <h3>NOTES:</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            `
         },
         'ways-of-seeing': {
             title: 'Ways of Seeing by John Berger',
             category: 'Category: Nonfiction Essays',
-            date: 'Published: July 28th, 2024',
+            date: 'Published: August 7, 2024',
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4></h4>
@@ -140,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'nausea': {
             title: 'Nausea by Jean-Paul Sartre',
             category: 'Category: Philosophy',
-            date: 'Published: 15 Jan 2024',
+            date: 'Published: August 7, 2024',
             stars: 'Stars: ★★★★★',
             content: `
                 <h4></h4>
@@ -156,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'the-stranger': {
             title: 'The Stranger by Albert Camus',
             category: 'Category: Literary Fiction',
-            date: 'Published: 15 Jan 2024',
+            date: 'Published: August 7, 2024',
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4></h4>
@@ -172,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'tuesdays-with-morrie': {
             title: 'Tuesdays with Morrie by Mitch Albom',
             category: 'Category: Memoir',
-            date: 'Published: 28 Jun 2024',
+            date: 'Published: August 7, 2024',
             stars: 'Stars: ★★★☆☆',
             content: `
                 <h4></h4>
