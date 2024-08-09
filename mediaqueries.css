@@ -152,6 +152,32 @@
 }
 
 @media only screen and (min-width: 1600px) {
+    .text-section {
+        font-size: 44px; 
+    }
+
+    .image-section {
+        flex: 1.9;
+        text-align: right; 
+    }
+
+    .image-section img {
+        width: 90%; 
+        height: auto;
+        margin-top: -50px; 
+        margin-bottom: -50px; 
+    }
+
+    .explore-button-container {
+        text-align: left; 
+        margin-left: 20px; 
+    }
+
+    .explore-button {
+        font-size: 1.5rem; 
+        padding: 10px 20px; 
+    }
+    
     .beyond-image img {
         width: 100%; 
         height: auto;
