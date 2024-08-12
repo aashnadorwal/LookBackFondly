@@ -219,27 +219,6 @@ a {
     color: #ffffff;
 }
 
-.explore-button-container {
-    bottom: 20px;
-    left: 40px;
-}
-
-.explore-button {
-    font-style: italic;
-    font-size: 1.25rem;
-    text-decoration: none;
-    color: #633313;
-    background-color: #9dd9f8;
-    padding: 10px 20px;
-    border: 1px solid #633313;
-    border-radius: 5px;
-}
-
-.explore-button:hover {
-    background-color: #7fc0e5;
-    color: #ffffff;
-}
-
 #content {
     display: flex;
     align-items: flex-start; 
@@ -395,12 +374,15 @@ footer {
         margin-left: 0; 
     }
 
+    .card {
+        height: 545px;
+        width: 300px;
+    }
+
     .text-section {
         font-size: 24px; 
         margin-top: -30px; 
     }
-
-
 
     form {
         max-width: 100%; 

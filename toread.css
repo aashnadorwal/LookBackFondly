@@ -263,7 +263,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .card {
         flex: 0 0 calc(50% - 20px);
-        height: 330px; 
+        height: 338px; 
         width: calc(50% - 20px);
         padding: 20px; 
         box-sizing: border-box; 
