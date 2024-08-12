@@ -139,7 +139,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    height: 540px;
+    height: 545px;
     width: 300px;
     padding: 20px;
     gap: 15px;
@@ -375,7 +375,7 @@ footer {
     }
 
     .card {
-        height: 545px;
+        height: 550px;
         width: 300px;
     }
 

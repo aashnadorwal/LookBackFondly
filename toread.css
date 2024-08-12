@@ -117,7 +117,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    height: 365px;
+    height: 375px;
     width: 185px; /* Adjust width for each card */
     padding: 20px;
     gap: 20px;
@@ -126,17 +126,16 @@ a {
     border-radius: 20px;
     align-items: center;
     box-shadow: 10px 10px var(--standard);
-    margin-bottom: 10px; /* Adjust margin between cards */
 }
 
 .card img {
-    width: 100%; /* Ensure the image fills the card */
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
 .card h2 {
-    color: var(--var1); /* Use variable for consistent color */
+    color: var(--var1);
     font-size: 22px;
 }
 
@@ -263,7 +262,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .card {
         flex: 0 0 calc(50% - 20px);
-        height: 338px; 
+        height: 350px; 
         width: calc(50% - 20px);
         padding: 20px; 
         box-sizing: border-box; 
@@ -272,6 +271,7 @@ footer {
 
     .card h2 {
         font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .preview_pic {
