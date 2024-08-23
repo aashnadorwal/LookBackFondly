@@ -28,6 +28,7 @@ html, body {
     width: 100%;
     font-family: "Nanum Myeongjo", serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 a {

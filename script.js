@@ -120,6 +120,39 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p></p>
 
             `
+        },
+        'ways-of-seeing': {
+            title: 'Ways of Seeing by John Berger',
+            category: 'Category: Art & Nonfiction Essays',
+            date: 'Published: August 23, 2024',
+            stars: 'Stars: ★★★★★',
+            content: `
+                <h4>This book really made me think about how I perceive art. It made me realize that the way I see paintings — and really, all images — is influenced by societal norms that I hadn’t fully recognized before. The book pushed me to think critically about how images are used, not just in art but in all forms of visual media, to convey messages and ideologies.</h4>
+                <h4>One of my favorite quotes overall and from the book is, “To be desired is perhaps the closest anybody in this life can reach to feeling immortal.” This line struck me. It’s a reflection on how being seen by others can grant us a sense of transcending mortality, even if it is only for a fleeting moment, which I found simply beautiful. </h4>
+                <h4>
+                I like that the book talks about the portrayal of women in art, particularly how they’re often depicted as objects of the male gaze. Berger discusses how women have historically been portrayed in ways that emphasize their appearance and desirability, and shaping their identity through the eyes of others. I found it necessary because it is a reality often glossed over or ignored in discussions about art and media. There is a documentary that you can watch, which was adapted into this book <a href="https://www.youtube.com/watch?v=hXl4U1gFTto&t=239s" target="_blank" rel="noopener noreferrer" style="color:blue;"> here.</a>
+                </h4>
+                <h3>NOTES:</h3>
+                <p>The uniqueness of every painting was once part of the uniqueness of the place where it resided. Sometimes the painting was transportable. But it could never be seen in two places at the same time. When the camera reproduces a painting, it destroys the uniqueness of its image. As a result its meaning changes. Or, more exactly, its meaning multiplies and fragments into many meanings.</p>
+                <p>The relation between what we see and what we know is never settled. Each evening we see the sun set. We know that the earth is turning away from it. Yet the knowledge, the explanation, never quite fits the sight.</p>
+                <p>For the first time ever, images of art have become ephemeral, ubiquitous, insubstantial, available, valueless, free. They surround us in the same way as a language surrounds us. They have entered the mainstream of life over which they no longer, in themselves, have power. Yet very few people are aware of what has happened because the means of reproduction are used nearly all the time to promote the illusion that nothing has changed except that the masses, thanks to reproductions, can now begin to appreciate art as the cultured minority once did. Understandably, the masses remain uninterested and skeptical.</p>
+                <p>A man's presence suggests what he is capable of doing to you or for you. By contrast, a woman's presence . . . defines what can and cannot be done to her.</p>
+                <p>A woman must continually watch herself. She is almost continually accompanied by her own image of herself. Whilst she is walking across a room or whilst she is weeping at the death of her father, she can scarcely avoid envisaging herself walking or weeping. From earliest childhood she has been taught and persuaded to survey herself continually. And so she comes to consider the surveyor and the surveyed within her as the two constituent yet always distinct elements of her identity as a woman. She has to survey everything she is and everything she does because how she appears to men, is of crucial importance for what is normally thought of as the success of her life. Her own sense of being in herself is supplanted by a sense of being appreciated as herself by another.</p>
+                <p>One might simplify this by saying: men act and women appear. Men look at women. Women watch themselves being looked at. This determines not only most relations between men and women but also the relation of women to themselves. The surveyor of woman in herself is male: the surveyed female. Thus she turns herself into an object -- and most particularly an object of vision: a sight.</p>
+                <p>To be naked is to be oneself. To be nude is to be seen naked by others and yet not recognized for oneself.</p>
+                <p>To remain innocent may also be to remain ignorant.</p>
+                <p>When in love, the sight of the beloved has a completeness which no words and no embrace can match: a completeness which only the act of making love can temporarily accommodate.</p>
+                <p>Women constantly meet glances which act like mirrors reminding them of how they look or how they should look. Behind every glance there is judgment.</p>
+                <p>The mirror was often used as a symbol of the vanity of woman. The moralizing, however, was mostly hypocritical.</p>
+                <p>You painted a naked woman because you enjoyed looking at her, you put a mirror in her hand and you called the painting "Vanity", thus morally condemning the woman whose nakedness you had depicted for your own pleasure.</p>
+                <p>Oil painting did to appearances what capital did to social relations. It reduced everything to the equality of objects. Everything became exchangeable because everything became a commodity.</p>
+                <p>Works of art in earlier tradition celebrated wealth. But wealth was then a symbol of a fixed social or divine order. Oil painting celebrated a new kind of wealth - which was dynamic and which found its only sanction in the supreme buying power of money. Thus painting itself had to be able to demonstrate the desirability of what can be bought lies in its intangibility, in how it will reward touch, the hand, of the owner.</p>
+                <p>Every woman's presence regulates what is and is not 'permissible' within her presence. Every one of her actions - whatever its direct purpose or motivation - is also read as an indication of how she would like to be treated. If a woman throws a glass on the floor, this is an example of how she treats her own emotion of anger and so of how she would wish it to be treated by others. If a man does the same, his action is only read as an expression of his anger. If a woman makes a good joke this is an example of how she treats the joker in herself and accordingly of how she as a joker-woman would like to be treated by others. Only a man can make a good joke for its own sake.</p>
+                <p>Money is life. Not in the sense that without money you starve. Not in the sense that capital gives one class power over the entire lives of another class. But in the sense that money is the token of, and the key to, every human capacity. The power to spend money is the power to live.</p>
+                <p>The real question is: to whom does the meaning of the art of the past properly belong ? To those who can apply it to their own lives, or to a cultural hierarchy of relic specialists?</p>
+                <p>This is not to say that before the invention of the camera men believed that everyone could see everything. But perspective organized the visual field as though that was indeed the ideal. Every drawing or painting that used perspective proposed to the spectator that he was the unique centre of the world. The camera - and more particularly the movie camera - demonstrated that there was no centre.</p>
+                <p></p>
+            `
 
         },
         'm-train': {
@@ -137,22 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p></p>
                 <p></p>
             `
-        },
-        'ways-of-seeing': {
-            title: 'Ways of Seeing by John Berger',
-            category: 'Category: Nonfiction Essays',
-            date: 'Published: August 7, 2024',
-            stars: 'Stars: ★★★☆☆',
-            content: `
-                <h4></h4>
-                <h3>NOTES:</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            `
+
         },
         'nausea': {
             title: 'Nausea by Jean-Paul Sartre',
